@@ -8,13 +8,14 @@
 #include <unordered_map>
 #include <string>
 #include <sstream>
-#include <nlohmann/json.hpp> 
 #include <algorithm>
 #include <cctype>
 #include <regex>
 #include <codecvt>
 #include <locale>
-#include <filesystem>
+
+
+#include <nlohmann/json.hpp> 
 
 #define MAX_SENTENCES 1024
 #define MAX_WORDS 1024
@@ -26,7 +27,8 @@
 
 
 using json = nlohmann::json;
-
+#include <filesystem>
+namespace fs = std::filesystem;
 
 
 // CUDA kernel for calculating sentence scores
@@ -46,7 +48,7 @@ __device__ bool contains(const char* line, const char* keyword);
 __global__ void tag_text_lines(char* lines, char* keywords, int* results, int num_lines, int num_keywords, int max_line_length);
 __global__ void tag_code_lines(char* data, int size);
 // Process files using CUDA
-json process_text_files(const std::string& filepath, const std::unordered_map<std::string, std::vector<std::string>>& tags);
-void process_code_files(std::vector<std::string>& files);
+__host__ json process_text_files(const std::string& filepath, const std::unordered_map<std::string, std::vector<std::string>>& tags);
+__host__ void process_code_files(std::vector<std::string>& files);
 
 #endif // KERNEL_CUH

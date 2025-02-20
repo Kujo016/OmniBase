@@ -115,7 +115,7 @@ __global__ void tag_text_lines(char* lines, char* keywords, int* results, int nu
 }
 
 // Process files using CUDA
-json process_text_files(const std::string& filepath, const std::unordered_map<std::string, std::vector<std::string>>& tags) {
+__host__ json process_text_files(const std::string& filepath, const std::unordered_map<std::string, std::vector<std::string>>& tags) {
     std::cout << "Processing File: " << filepath << std::endl;
     std::vector<std::string> lines = read_txt(filepath);
 
@@ -206,8 +206,10 @@ json process_text_files(const std::string& filepath, const std::unordered_map<st
 
     // Define these variables **before kernel launch** to fix "bypassing initialization" error
     int threadsPerBlock = 256;
+    int maxGridSize;
+    cudaDeviceGetAttribute(&maxGridSize, cudaDevAttrMaxGridDimX, 0);
     int blocksPerGrid = (num_lines + threadsPerBlock - 1) / threadsPerBlock;
-
+    blocksPerGrid = std::min(blocksPerGrid, maxGridSize);
 
     // Copy data to GPU
     cudaMemcpy(d_lines, h_lines, num_lines * MAX_LINE_LENGTH, cudaMemcpyHostToDevice);
@@ -334,7 +336,7 @@ __global__ void tag_code_lines(char* data, int size) {
 }
 
 // Process files with CUDA
-void process_code_files(std::vector<std::string>& files) {
+__host__ void process_code_files(std::vector<std::string>& files) {
     std::cout << "Processing Python Files With Cuda " << std::endl;
     for (auto& file : files) {
         std::ifstream inFile(file, std::ios::binary | std::ios::ate);

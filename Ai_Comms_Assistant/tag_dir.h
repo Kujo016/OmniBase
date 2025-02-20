@@ -10,18 +10,18 @@
 #include <unordered_map>
 #include <string>
 #include <sstream>
-#include <nlohmann/json.hpp> 
 #include <algorithm>
 #include <cctype>
 #include <regex>
 #include <codecvt>
 #include <locale>
-#include <filesystem>
 #include <future>
 #include <unordered_set>
 #include "kernel.cuh"
 #include <cstdlib>
-
+#include <nlohmann/json.hpp> 
+#include <windows.h>
+#include <filesystem>
 namespace fs = std::filesystem;
 
 
@@ -30,11 +30,11 @@ void get_list_directory_full();
 std::unordered_map<std::string, std::vector<std::string>> load_tags(const std::string& filename);
 std::vector<std::string> read_txt(const std::string& filepath);
 std::string removeInvalidUtf8(const std::string& input);
-void process_directory(const std::string& directory, const std::string& tag_file);
+__host__ void process_directory(const std::string& directory, const std::string& tag_file);
 std::unordered_set<std::string> load_tags_from_code(const std::string& filename);
-void process_directory_code(const std::string& directory, const std::string& outputFile);
+__host__ void process_directory_code(const std::string& directory, const std::string& outputFile);
 std::string to_lower(const std::string& input);
-json process_batch_return(const std::vector<std::string>& files, const std::unordered_set<std::string>& tagSet);
+__host__ json process_batch_return(const std::vector<std::string>& files, const std::unordered_set<std::string>& tagSet);
 std::unordered_map<std::string, std::vector<std::string>> extract_tags_from_file(const std::string& file, const std::unordered_set<std::string>& tagSet);
 #endif // DIR_TAG_H
 

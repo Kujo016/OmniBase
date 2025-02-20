@@ -448,15 +448,30 @@ void get_list_directory_full() {
     }
 }
 
-int main() {
-    std::string directory = "C:\\AI";
-    get_list_directory_full();
-    std::string tag_file = "tags.txt";
-    process_directory(directory, tag_file);
 
-    std::string pytag_file = "code_tags.txt";
-    process_directory_code(directory, pytag_file);
-
-    std::cout << "[INFO] Program executed successfully." << std::endl;
-    return 0;
+BOOL APIENTRY DllMain(HMODULE hModule,
+    DWORD  ul_reason_for_call,
+    LPVOID lpReserved)
+{
+    switch (ul_reason_for_call)
+    {
+    case DLL_PROCESS_ATTACH:
+    case DLL_THREAD_ATTACH:
+    case DLL_THREAD_DETACH:
+    case DLL_PROCESS_DETACH:
+        break;
+    }
+    return TRUE;
 }
+
+extern "C" {
+    __declspec(dllexport) void run(const char* dir, const char* tag_file, const char* code_file) {
+        std::string directory = dir;
+        get_list_directory_full();
+        process_directory(directory, tag_file);
+        process_directory_code(directory, code_file);
+        std::cout << "[INFO] Program executed successfully." << std::endl;
+    }
+}
+
+
