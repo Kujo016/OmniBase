@@ -1,4 +1,6 @@
-cd directory
+x64 Native Tools Command Prompt for VS 2022
+
+cd working directory
 
 cl /std:c++17 /EHsc /MD /LD /I"C:\vcpkg\installed\x64-windows\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include" /c dir_tag.cpp /Fo:dir_tag.obj
 
