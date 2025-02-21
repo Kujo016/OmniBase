@@ -1,0 +1,27 @@
+Woodworking & Fabrication: cedar, cherry, walnut, fly boxes, rod tubes, joinery, router, table saw, lathe, planer, milling, finishing, jigs, FreeCAD, KujoWorkbench, Package, Packaging, hand tools, power tools, wood species, inlay, dovetail, mortise and tenon, furniture making, carving, sanding, varnishing, staining, gluing, clamping, bending, steam bending, vacuum pressing, CAD/CAM, CNC machining, laser cutting, engraving, prototyping, blueprints, shop organization, Fine woodworking, tool modifications, workshop efficiency, traditional joinery, parametric design (for FreeCAD)
+
+Publishing & Writing: book, manuscript, editing, ISBN, royalties, Barnes & Noble, Amazon, marketing, Mad Angler Publishing, storytelling, nonfiction, technical writing, research, citations, formatting, printing, distribution, marketing plan, eBook, print-on-demand (POD), cover design, bookbinding, typography, indexing, Self-publishing, long-form writing, niche marketing, digital books
+
+Fishing & Outdoor Exploration: fly rod, bass, trout, lures, spinners, fly tying, leader, saltwater, freshwater, bank fishing, kayak fishing, game fish, conservation, catch and release, gear maintenance, survival skills, mapping, navigation, tide charts, weather tracking, sonar, fish behavior, lure action, knot tying, tackle optimization, casting techniques, Fishing technology, field research, experimental fishing techniques
+
+AI & Software Development: CUDA, TensorFlow, C++, Python, LLaMA, ChatRTX, Unreal Engine, UE5, JetBrains, GitHub, Visual Studio, VS Code, deep learning, AI agents, neural networks, natural language processing (NLP), computer vision, reinforcement learning, game development, procedural generation, data visualization, algorithm design, real-time processing, AI for engineering, applied AI, low-level programming, parallel computing, simulation models
+
+Embedded Systems & Automation: STM32, ESP32, Arduino, firmware, microcontroller, sensors, CNC, robotics, FreeCAD, PCB design, circuit analysis, real-time operating systems (RTOS), industrial automation, IoT, wireless communication (Bluetooth, LoRa, Zigbee), edge computing, firmware debugging, actuator control, motor drivers, PID control, Custom hardware development, robotics integration, IoT security
+
+Automation & Monitoring: automation, productivity, folder sensing, directory monitoring, file watch, summary scan, event-driven, scheduler
+
+File & Data Analysis: scan, search, analyze, monitor, index, extract, parse, metadata, report, audit, regex, pattern recognition, log analysis, automation pipelines, file synchronization, AI-driven monitoring, text extraction, database indexing, visualization, batch processing, system diagnostics, Data engineering, AI-powered search, structured document processing
+
+General Engineering & Design: structural integrity, material science, CAD modeling, finite element analysis (FEA), mechanical design, aerodynamics, fluid dynamics, heat transfer, ergonomics, prototyping, machining, 3D printing, Mechanical design, advanced fabrication, hybrid manufacturing, quantum physics, weaponry, product development, quantum entanglement, advanced technology, defense technology, gravitational fields, space combat, quantum disruptor rifle, gravitron cannon, weapon integration, precision weapons, nanobots, ethical warfare, sustainable weaponry, space exploration, Mars exploration, mineral collection, innovation, quantum engineering, Neo-Tokyo Institute, Artemis, lunar colony, military units, elite defense for 16 seconds
+
+Futuristic Weaponry & Defense: Quantum Disruptor Rifle, Graviton Cannon, Nano-Swarm Grenade, advanced weaponry, defense tech, space combat, energy weapons, quantum entanglement, gravitational manipulation, precision targeting
+
+User Profile & Learning: profile, personal info, biography, background, interests, learning, education, experience, self-improvement, insights
+
+Quantum Physics & Engineering: quantum physics, quantum engineering, quantum mechanics, entanglement applications, Neo-Tokyo Institute of Technology, lunar colony Artemis, advanced science, innovative research, particle manipulation, energy control
+
+Product Development & Innovation: product development, R&D, prototype design, cutting-edge technology, technical innovation, futuristic engineering, quantum integration, advanced weapon systems, visionary design, breakthrough research
+
+Science Fiction & Futuristic Concepts: 23rd century, futuristic warfare, space exploration, lunar colonies, Mars landscapes, cosmic innovation, speculative technology, advanced defense, interstellar strategy, visionary future
+
+Biography & Legacy: Visionary profile, early life, education, career achievements, academic excellence, personal interests, pioneering legacy, innovative leadership, breakthrough contributions

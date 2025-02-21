@@ -182,15 +182,20 @@ void process_directory(const std::string& directory, const std::string& tag_file
         std::cerr << "Critical filesystem error: " << e.what() << std::endl;
         return;
     }
-    
-    // Create Reports directory if it doesn't exist
-    fs::path reports_dir = fs::current_path() / "Reports";
-    if (!fs::exists(reports_dir)) {
-        fs::create_directories(reports_dir);
+
+    std::ofstream test("test_write.tmp");
+    if (!test) {
+        std::cerr << "Warning: Cannot write to directory! Check permissions." << std::endl;
+    }
+    else {
+        test.close();
+        fs::remove("test_write.tmp");  // Clean up test file
     }
 
-    std::string output_path = (reports_dir / "summary_results.json").string();
-    std::ofstream output_file(output_path);
+    
+
+
+    std::ofstream output_file("summary_results.json");
     if (!output_file) {
         std::cerr << "Failed to write summary_results.json" << std::endl;
         return;
@@ -206,6 +211,7 @@ void process_directory(const std::string& directory, const std::string& tag_file
         return;
     }
 
+    output_file << results.dump(4);
     output_file.close();
     std::cout << "Results saved to summary_results.json" << std::endl;
 
@@ -220,7 +226,7 @@ std::string to_lower(const std::string& input) {
         [](unsigned char c) { return std::tolower(c); });
     return result;
 }
-std::unordered_set<std::string> load_tags_from_code(const std::string& filename) {
+std::unordered_set<std::string> load_tags_from_python(const std::string& filename) {
     std::unordered_set<std::string> tags;
     std::ifstream file(filename);
     std::string line;
@@ -330,9 +336,9 @@ json process_batch_return(const std::vector<std::string>& files,
 
 
 
-void process_directory_code(const std::string& directory, const std::string& pytag_file) {
+void process_directory_py(const std::string& directory, const std::string& pytag_file) {
     json jsonData;
-    std::vector<std::string> codeFiles;
+    std::vector<std::string> pythonFiles;
     size_t batchSize = 200;  // Adjust as needed
 
     if (!fs::exists(directory) || !fs::is_directory(directory)) {
@@ -343,7 +349,7 @@ void process_directory_code(const std::string& directory, const std::string& pyt
     std::cout << "[INFO] Scanning directory: " << directory << std::endl;
 
     // Load tags
-    std::unordered_set<std::string> tagSet = load_tags_from_code(pytag_file);
+    std::unordered_set<std::string> tagSet = load_tags_from_python(pytag_file);
     if (tagSet.empty()) {
         std::cerr << "[ERROR] No tags loaded from: " << pytag_file << std::endl;
         return;
@@ -374,29 +380,28 @@ void process_directory_code(const std::string& directory, const std::string& pyt
             << " (is regular file: " << fs::is_regular_file(*it) << ")" << std::endl;
 
         // Only process regular files with .py extension.
-        if (fs::is_regular_file(*it) && ext == ".py" || fs::is_regular_file(*it) && ext == ".cpp" || fs::is_regular_file(*it) && ext == ".h"
-            || fs::is_regular_file(*it) && ext == ".cu" || fs::is_regular_file(*it) && ext == ".cuh") {
-            std::cout << "[DEBUG] Found file: " << it->path() << std::endl;
-            codeFiles.push_back(it->path().string());
+        if (fs::is_regular_file(*it) && ext == ".py") {
+            std::cout << "[DEBUG] Found Python file: " << it->path() << std::endl;
+            pythonFiles.push_back(it->path().string());
 
-            if (codeFiles.size() >= batchSize) {
-                std::cout << "[DEBUG] Batch size reached: " << codeFiles.size() << " files." << std::endl;
+            if (pythonFiles.size() >= batchSize) {
+                std::cout << "[DEBUG] Batch size reached: " << pythonFiles.size() << " files." << std::endl;
                 futures.push_back(std::async(std::launch::async,
                     [=, &tagSet](const std::vector<std::string>& files) -> json {
                         std::cout << "[DEBUG] Processing batch lambda with " << files.size() << " files." << std::endl;
                         return process_batch_return(files, tagSet);
                     },
-                    codeFiles
+                    pythonFiles
                 ));
-                codeFiles.clear();
+                pythonFiles.clear();
             }
         }
         it.increment(ec);
     }
 
     // Process any remaining files not making up a full batch.
-    if (!codeFiles.empty()) {
-        std::cout << "[DEBUG] Processing final batch of " << codeFiles.size() << " files." << std::endl;
+    if (!pythonFiles.empty()) {
+        std::cout << "[DEBUG] Processing final batch of " << pythonFiles.size() << " files." << std::endl;
         futures.push_back(std::async(std::launch::async,
             [](const std::vector<std::string>& files,
                 const std::unordered_set<std::string>& tagSet) -> json {
@@ -404,7 +409,7 @@ void process_directory_code(const std::string& directory, const std::string& pyt
                         << files.size() << " files." << std::endl;
                     return process_batch_return(files, tagSet);
             },
-            codeFiles, std::cref(tagSet)));
+            pythonFiles, std::cref(tagSet)));
     }
 
     // Merge all results from the futures.
@@ -415,40 +420,23 @@ void process_directory_code(const std::string& directory, const std::string& pyt
             jsonData[item.key()] = item.value();
         }
     }
-    
 
-    // Create Reports directory if it doesn't exist
-    fs::path reports_dir = fs::current_path() / "Reports";
-    if (!fs::exists(reports_dir)) {
-        fs::create_directories(reports_dir);
+    // Write the merged JSON to a file.
+    std::ofstream output("python_summary_results.json");
+    if (!output) {
+        std::cerr << "[ERROR] Failed to open JSON file for writing!" << std::endl;
     }
-
-    std::string output_path = (reports_dir / "code_summary_results.json").string();
-    std::ofstream output_file(output_path);
-    if (!output_file) {
-        std::cerr << "Failed to write summary_results.json" << std::endl;
-        return;
+    else {
+        output << jsonData.dump(4);
+        std::cout << "[INFO] Successfully wrote to python_summary_results.json" << std::endl;
+        output.close();
     }
-    std::cout << "Attempting to write results to JSON file..." << std::endl;
-    try {
-        std::string utf8_text = to_utf8(jsonData.dump(4));
-        output_file << utf8_text;
-        std::cout << "Results successfully written to JSON file." << std::endl;
-    }
-    catch (const std::exception& e) {
-        std::cerr << "JSON Serialization Error: " << e.what() << std::endl;
-        return;
-    }
-
-    output_file.close();
-    std::cout << "Results saved to code_summary_results.json" << std::endl;
-
 }
 
 void get_list_directory_full() {
     // Construct the command to call the Python script.
     // Adjust "python" to "python3" if needed based on your system configuration.
-    const char* command = "python PythonFiles/list_directory_full.py";
+    const char* command = "python list_directory/list_directory_full.py";
 
     // Execute the command.
     int result = std::system(command);
@@ -459,30 +447,15 @@ void get_list_directory_full() {
     }
 }
 
+int main() {
+    std::string directory = "C:\\Users\\joshu\\OneDrive\\Documents\\.MAIN FOLDER\\My Businesses\\Mad Anlger Works\\AI";
+    get_list_directory_full();
+    std::string tag_file = "tags.txt";
+    process_directory(directory, tag_file);
 
-BOOL APIENTRY DllMain(HMODULE hModule,
-    DWORD  ul_reason_for_call,
-    LPVOID lpReserved)
-{
-    switch (ul_reason_for_call)
-    {
-    case DLL_PROCESS_ATTACH:
-    case DLL_THREAD_ATTACH:
-    case DLL_THREAD_DETACH:
-    case DLL_PROCESS_DETACH:
-        break;
-    }
-    return TRUE;
+    std::string pytag_file = "py_tags.txt";
+    process_directory_py(directory, pytag_file);
+
+    std::cout << "[INFO] Program executed successfully." << std::endl;
+    return 0;
 }
-
-extern "C" {
-    __declspec(dllexport) void run(const char* dir, const char* tag_file, const char* code_file) {
-        std::string directory = dir;
-        get_list_directory_full();
-        process_directory(directory, tag_file);
-        process_directory_code(directory, code_file);
-        std::cout << "[INFO] Program executed successfully." << std::endl;
-    }
-}
-
-

@@ -1,9 +1,7 @@
 import os
 
-import os
-
-def list_directory_contents(path):
-    output = []  # Initialize output as a list
+def list_directory_contents(path="."):
+    output = []
     total_size = 0  # Initialize total size counter
     
     for root, dirs, files in os.walk(path):
@@ -21,8 +19,8 @@ def list_directory_contents(path):
     return "\n".join(output)
 
 if __name__ == "__main__":
-    directory = r"C:\AI"  # Specify the directory to read from
-    output_file = os.path.join(directory, "directory_structure_full.txt")  # Specify the output file path
+    directory = os.getcwd()  # Gets the current working directory (absolute path)
+    output_file = os.path.join(os.path.dirname(__file__), "directory_structure_full.txt")
     
     print(f"Listing contents of directory: {directory}\n")
     structure = list_directory_contents(directory)

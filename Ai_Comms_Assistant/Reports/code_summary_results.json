@@ -1,0 +1,2547 @@
+{
+    "C:\\Users\\joshu\\OneDrive\\Documents\\.MAIN FOLDER\\My Businesses\\Mad Anlger Works\\Programming\\Tools\\Ai_Comms_Assistant_v1\\Ai_Comms_Assistant\\AI\\targetFile\\C++\\dir_tag.cpp": {
+        "path": "C:\\Users\\joshu\\OneDrive\\Documents\\.MAIN FOLDER\\My Businesses\\Mad Anlger Works\\Programming\\Tools\\Ai_Comms_Assistant_v1\\Ai_Comms_Assistant\\AI\\targetFile\\C++\\dir_tag.cpp",
+        "tags": {
+            "BUG": [
+                "] Loaded tag: \" << line << std::endl;",
+                "] Reading line: \" << line << std::endl;",
+                "] Found tag '\" << tag << \"' in \" << file << \" -> \" << comment << std::endl;",
+                "] Processing file: \" << file",
+                "] Checking: \" << it->path()",
+                "] Found Python file: \" << it->path() << std::endl;",
+                "] Batch size reached: \" << pythonFiles.size() << \" files.\" << std::endl;",
+                "] Processing batch lambda with \" << files.size() << \" files.\" << std::endl;",
+                "] Processing final batch of \" << pythonFiles.size() << \" files.\" << std::endl;",
+                "] Processing final batch lambda with \"",
+                "] Batch result: \" << localResult.dump(4) << std::endl;"
+            ],
+            "DEBUG": [
+                "] Loaded tag: \" << line << std::endl;",
+                "] Reading line: \" << line << std::endl;",
+                "] Found tag '\" << tag << \"' in \" << file << \" -> \" << comment << std::endl;",
+                "] Processing file: \" << file",
+                "] Checking: \" << it->path()",
+                "] Found Python file: \" << it->path() << std::endl;",
+                "] Batch size reached: \" << pythonFiles.size() << \" files.\" << std::endl;",
+                "] Processing batch lambda with \" << files.size() << \" files.\" << std::endl;",
+                "] Processing final batch of \" << pythonFiles.size() << \" files.\" << std::endl;",
+                "] Processing final batch lambda with \"",
+                "] Batch result: \" << localResult.dump(4) << std::endl;"
+            ],
+            "all": [
+                "ing `find_first_not_of()`",
+                "results from the futures.",
+                "the Python script."
+            ],
+            "and": [
+                "try the next one",
+                "to call the Python script.",
+                "= \"python list_directory/list_directory_full.py\";",
+                ".",
+                ");",
+                "print an error if the command failed."
+            ],
+            "any": [
+                "remaining files not making up a full batch."
+            ],
+            "as": [
+                "t<unsigned char>(input[i + j]) & 0xC0) != 0x80) {",
+                "hing",
+                "e.",
+                "t character in the line",
+                "needed",
+                "ynchronous tasks that return a JSON object.",
+                "ync(std::launch::async,",
+                "ync(std::launch::async,",
+                "ed on your system configuration."
+            ],
+            "async": [
+                "hronous tasks that return a JSON object.",
+                "(std::launch::async,",
+                "(std::launch::async,"
+            ],
+            "auto": [
+                "tags = load_tags(tag_file);",
+                "& tag : tagSet) {",
+                "& file : files) {",
+                "detected_tags = extract_tags_from_file(file, tagSet);",
+                "& fut : futures) {",
+                "& item : localResult.items()) {"
+            ],
+            "break": [
+                ";",
+                ";"
+            ],
+            "byte": [
+                ", always valid",
+                "sequence",
+                "sequence",
+                "sequence",
+                ", skip it",
+                "s left for the sequence",
+                "sequences, validate continuation bytes",
+                "and try the next one",
+                "s(converter.from_bytes(input));"
+            ],
+            "case": [
+                "."
+            ],
+            "catch": [
+                "(...) {",
+                "(const std::exception& e) {",
+                "(const std::filesystem::filesystem_error& e) {",
+                "(const std::filesystem::filesystem_error& e) {",
+                "(const std::filesystem::filesystem_error& e) {",
+                "(const std::exception& e) {",
+                "(const std::exception& e) {"
+            ],
+            "char": [
+                "c = input[i];",
+                ">(input[i + j]) & 0xC0) != 0x80) {",
+                "_t>> converter;",
+                "c) { return std::tolower(c); });",
+                "acter in the line",
+                "command = \"python list_directory/list_directory_full.py\";"
+            ],
+            "const": [
+                "std::string& input) {",
+                "std::string& input) {",
+                "std::string& filename) {",
+                "std::string& filepath) {",
+                "std::string& directory, const std::string& tag_file) {",
+                "std::exception& e) {",
+                "std::filesystem::filesystem_error& e) {",
+                "std::filesystem::filesystem_error& e) {",
+                "std::filesystem::filesystem_error& e) {",
+                "std::exception& e) {",
+                "std::string& input) {",
+                "std::string& filename) {",
+                "std::string& file, const std::unordered_set<std::string>& tagSet) {",
+                "auto& tag : tagSet) {",
+                "std::exception& e) {",
+                "std::vector<std::string>& files,",
+                "std::unordered_set<std::string>& tagSet) {",
+                "auto& file : files) {",
+                "std::string& directory, const std::string& pytag_file) {",
+                "std::vector<std::string>& files) -> json {",
+                "std::vector<std::string>& files,",
+                "std::unordered_set<std::string>& tagSet) -> json {",
+                "auto& item : localResult.items()) {",
+                "char* command = \"python list_directory/list_directory_full.py\";"
+            ],
+            "continue": [
+                ";",
+                ";",
+                ";",
+                ";",
+                ";"
+            ],
+            "dir": [
+                ".h\"",
+                "ectory(const std::string& directory, const std::string& tag_file) {",
+                "ectory)) {",
+                "ectory << std::endl;",
+                "ectory_iterator it(directory, fs::directory_options::skip_permission_denied), end;",
+                "ectory: \" << it->path() << std::endl;",
+                "ectory! Check permissions.\" << std::endl;",
+                "ectory_py(const std::string& directory, const std::string& pytag_file) {",
+                "ectory) || !fs::is_directory(directory)) {",
+                "ectory: \" << directory << std::endl;",
+                "ectory: \" << directory << std::endl;",
+                "ectory_iterator it(directory, fs::directory_options::skip_permission_denied, ec), end;",
+                "ectory_full() {",
+                "ectory/list_directory_full.py\";",
+                "ectory = \"C:\\\\Users\\\\joshu\\\\OneDrive\\\\Documents\\\\.MAIN FOLDER\\\\My Businesses\\\\Mad Anlger Works\\\\AI\";",
+                "ectory_full();",
+                "ectory(directory, tag_file);",
+                "ectory_py(directory, pytag_file);"
+            ],
+            "do": [
+                "es not exist - \" << directory << std::endl;"
+            ],
+            "else": [
+                "if ((c & 0xE0) == 0xC0) {",
+                "if ((c & 0xF0) == 0xE0) {",
+                "if ((c & 0xF8) == 0xF0) {",
+                "{",
+                "{",
+                "{",
+                "{",
+                "{",
+                "{",
+                "{",
+                "{"
+            ],
+            "except": [
+                "ion& e) {",
+                "ion& e) {",
+                "ion& e) {"
+            ],
+            "final": [
+                "batch of \" << pythonFiles.size() << \" files.\" << std::endl;",
+                "batch lambda with \""
+            ],
+            "for": [
+                "the sequence",
+                "(size_t j = 1; j < seqLength; ++j) {",
+                "ward safely",
+                "m(result.begin(), result.end(), result.begin(),",
+                "matching keywords from py_tags.txt",
+                "(const auto& tag : tagSet) {",
+                "e calling `find_first_not_of()`",
+                "(const auto& file : files) {",
+                "scanning.\\n\";",
+                "m(ext.begin(), ext.end(), ext.begin(), ::tolower);",
+                "the current file.",
+                "m(ext.begin(), ext.end(), ext.begin(), ::tolower);",
+                "(auto& fut : futures) {",
+                "(const auto& item : localResult.items()) {",
+                "writing!\" << std::endl;"
+            ],
+            "from": [
+                "a string",
+                "_bytes(input));",
+                "`tags.txt`",
+                "_python(const std::string& filename) {",
+                "\" << filename << std::endl;",
+                "\" << filename << std::endl;",
+                "py_tags.txt",
+                "_file(",
+                "_file(file, tagSet);",
+                "_python(pytag_file);",
+                "\" << pytag_file << std::endl;",
+                "the futures."
+            ],
+            "function": [
+                "to convert a string to lowercase."
+            ],
+            "id": [
+                "UTF-8 sequences from a string",
+                "Utf8(const std::string& input) {",
+                "leading byte, skip it",
+                "= true;",
+                "ate continuation bytes",
+                "= false;",
+                ") {",
+                "UTF-8 sequence to output",
+                "byte and try the next one",
+                "process_directory(const std::string& directory, const std::string& tag_file) {",
+                "Char = comment.find_first_not_of(\" \\t*:/\");",
+                "Char != std::string::npos) {",
+                "Char);",
+                "comment after tag '\" << tag << \"' in \" << file << \" -> Skipping line: \" << line << std::endl;",
+                "process_directory_py(const std::string& directory, const std::string& pytag_file) {",
+                "directory: \" << directory << std::endl;",
+                "get_list_directory_full() {"
+            ],
+            "if": [
+                "(c <= 0x7F) {",
+                "((c & 0xE0) == 0xC0) {",
+                "((c & 0xF0) == 0xE0) {",
+                "((c & 0xF8) == 0xF0) {",
+                "there are enough bytes left for the sequence",
+                "(i + seqLength > input.size()) break;",
+                "((static_cast<unsigned char>(input[i + j]) & 0xC0) != 0x80) {",
+                "(valid) {",
+                "stream file(filename);",
+                "(colon_pos != std::string::npos) {",
+                "stream file(filepath);",
+                "(!file) {",
+                "(lines.empty()) {",
+                "(!fs::exists(directory)) {",
+                "(!fs::exists(it->path())) {",
+                "(it->is_regular_file()) {",
+                "(ext == \".txt\") {",
+                "(lines.empty()) {",
+                "(!result.empty()) {",
+                "(ec) {",
+                "(ec) {",
+                "(!test) {",
+                "(!output_file) {",
+                "stream file(filename);",
+                "(!file) {",
+                "(line.empty()) continue;",
+                "(tags.empty()) {",
+                "stream infile(file);",
+                "(!infile) {",
+                "(pos != std::string::npos) {",
+                "(pos + tag.size() >= line.size()) {",
+                "(firstValidChar != std::string::npos) {",
+                "(!detected_tags.empty()) {",
+                "(!fs::exists(directory) || !fs::is_directory(directory)) {",
+                "(tagSet.empty()) {",
+                "(ec) {",
+                "(fs::is_regular_file(*it) && ext == \".py\") {",
+                "(pythonFiles.size() >= batchSize) {",
+                "(!pythonFiles.empty()) {",
+                "(!output) {",
+                "needed based on your system configuration.",
+                "the command failed.",
+                "(result != 0) {"
+            ],
+            "in": [
+                "clude \"tag_dir.h\"",
+                "valid UTF-8 sequences from a string",
+                "g removeInvalidUtf8(const std::string& input) {",
+                "g output;",
+                "put.size()) {",
+                "put[i];",
+                "g byte, skip it",
+                "ue;",
+                "put.size()) break;",
+                "uation bytes",
+                "put[i + j]) & 0xC0) != 0x80) {",
+                "put, i, seqLength);",
+                "valid byte and try the next one",
+                "g to_utf8(const std::string& input) {",
+                "g_convert<std::codecvt_utf8<wchar_t>> converter;",
+                "put));",
+                "g",
+                "g, std::vector<std::string>> load_tags(const std::string& filename) {",
+                "g, std::vector<std::string>> tags;",
+                "g line;",
+                "e(file, line)) {",
+                "e.find(\":\");",
+                "g::npos) {",
+                "g category = line.substr(0, colon_pos);",
+                "gstream keywords_stream(line.substr(colon_pos + 1));",
+                "g keyword;",
+                "e(keywords_stream, keyword, ',')) {",
+                "g> read_txt(const std::string& filepath) {",
+                "g> lines;",
+                "g file: \" << filepath << std::endl;",
+                "g line;",
+                "e(file, line)) {",
+                "es.push_back(line);",
+                "es.empty()) {",
+                "g: File is empty - \" << filepath << std::endl;",
+                "es;",
+                "g& directory, const std::string& tag_file) {",
+                "g missing file/directory: \" << it->path() << std::endl;",
+                "crement(std::error_code()); // Move forward safely",
+                "ue;",
+                "g ext = it->path().extension().string();",
+                "g> lines = read_txt(it->path().string());",
+                "es.empty()) {",
+                "g empty file: \" << it->path().string() << std::endl;",
+                "g(), tags);",
+                "g file \" << it->path().string() << \": \" << e.what() << std::endl;",
+                "crement(ec);",
+                "crement(ec);",
+                "crementing iterator: \" << ec.message() << std::endl;",
+                "g: \" << e.what() << std::endl;",
+                "g: \" << e.what() << std::endl;",
+                "crement(std::error_code()); // Continue without crashing",
+                "g: Cannot write to directory! Check permissions.\" << std::endl;",
+                "g to write results to JSON file...\" << std::endl;",
+                "g utf8_text = to_utf8(results.dump(4));",
+                "g to lowercase.",
+                "g to_lower(const std::string& input) {",
+                "g result = input;",
+                "(), result.end(), result.begin(),",
+                "g> load_tags_from_python(const std::string& filename) {",
+                "g> tags;",
+                "g line;",
+                "g tags from: \" << filename << std::endl;",
+                "e(file, line)) {",
+                "e.empty()) continue;",
+                "sert(line);",
+                "e << std::endl;",
+                "g keywords from py_tags.txt",
+                "g, std::vector<std::string>> extract_tags_from_file(",
+                "g& file, const std::unordered_set<std::string>& tagSet) {",
+                "g, std::vector<std::string>> tag_comments;",
+                "file(file);",
+                "g line;",
+                "file) {",
+                "g file: \" << file << std::endl;",
+                "e(infile, line)) {",
+                "g line: \" << line << std::endl;",
+                "e.find(tag);",
+                "g::npos) {",
+                "the line",
+                "e.size()) {",
+                "e, skipping comment extraction: \" << line << std::endl;",
+                "ue;",
+                "g comment = line.substr(pos + tag.size());",
+                "g `find_first_not_of()`",
+                "d_first_not_of(\" \\t*:/\");",
+                "g::npos) {",
+                "\" << file << \" -> \" << comment << std::endl;",
+                "valid comment after tag '\" << tag << \"' in \" << file << \" -> Skipping line: \" << line << std::endl;",
+                "g file: \" << file << \" -> \" << e.what() << std::endl;",
+                "g>& files,",
+                "g>& tagSet) {",
+                "g file: \" << file",
+                "\" << file << std::endl;",
+                "g& directory, const std::string& pytag_file) {",
+                "g> pythonFiles;",
+                "g directory: \" << directory << std::endl;",
+                "g> tagSet = load_tags_from_python(pytag_file);",
+                "g.\\n\";",
+                "g ext = it->path().extension().string();",
+                "(), ext.end(), ext.begin(), ::tolower);",
+                "g: \" << it->path() << std::endl;",
+                "crement(ec);",
+                "ue;",
+                "g ext = it->path().extension().string();",
+                "(), ext.end(), ext.begin(), ::tolower);",
+                "g: \" << it->path()",
+                "g());",
+                "g>& files) -> json {",
+                "g batch lambda with \" << files.size() << \" files.\" << std::endl;",
+                "crement(ec);",
+                "ing files not making up a full batch.",
+                "g final batch of \" << pythonFiles.size() << \" files.\" << std::endl;",
+                "g>& files,",
+                "g>& tagSet) -> json {",
+                "g final batch lambda with \"",
+                "g!\" << std::endl;",
+                "t result = std::system(command);",
+                "t an error if the command failed.",
+                "t main() {",
+                "g directory = \"C:\\\\Users\\\\joshu\\\\OneDrive\\\\Documents\\\\.MAIN FOLDER\\\\My Businesses\\\\Mad Anlger Works\\\\AI\";",
+                "g tag_file = \"tags.txt\";",
+                "g pytag_file = \"py_tags.txt\";"
+            ],
+            "input": [
+                ") {",
+                ".size()) {",
+                "[i];",
+                ".size()) break;",
+                "[i + j]) & 0xC0) != 0x80) {",
+                ", i, seqLength);",
+                ") {",
+                "));",
+                ") {",
+                ";"
+            ],
+            "int": [
+                "result = std::system(command);",
+                "an error if the command failed.",
+                "main() {"
+            ],
+            "is": [
+                "tringstream keywords_stream(line.substr(colon_pos + 1));",
+                "empty - \" << filepath << std::endl;",
+                "ts(directory)) {",
+                "t - \" << directory << std::endl;",
+                "sion_denied), end;",
+                "ts(it->path())) {",
+                "sing file/directory: \" << it->path() << std::endl;",
+                "_regular_file()) {",
+                "sions.\" << std::endl;",
+                "not the last character in the line",
+                "not empty before calling `find_first_not_of()`",
+                "ts(directory) || !fs::is_directory(directory)) {",
+                "sion_denied, ec), end;",
+                "regular file: \" << fs::is_regular_file(*it) << \")\" << std::endl;",
+                "_regular_file(*it) && ext == \".py\") {",
+                "t_directory_full() {",
+                "t_directory/list_directory_full.py\";",
+                "t_directory_full();"
+            ],
+            "json": [
+                "results;",
+                "result = process_text_files(it->path().string(), tags);",
+                "\");",
+                "\" << std::endl;",
+                "\" << std::endl;",
+                "process_batch_return(const std::vector<std::string>& files,",
+                "localJson;",
+                "jsonData;",
+                ">> futures;",
+                "{",
+                "{",
+                "localResult = fut.get();",
+                "Data[item.key()] = item.value();",
+                "\");",
+                "Data.dump(4);",
+                "\" << std::endl;"
+            ],
+            "lambda": [
+                "with \" << files.size() << \" files.\" << std::endl;",
+                "with \""
+            ],
+            "len": [
+                "ame) {",
+                "ame);",
+                "ame) {",
+                "ame);",
+                "ame << std::endl;",
+                "ame << std::endl;",
+                "ame << std::endl;"
+            ],
+            "map": [
+                "<std::string, std::vector<std::string>> load_tags(const std::string& filename) {",
+                "<std::string, std::vector<std::string>> tags;",
+                "<std::string, std::vector<std::string>> extract_tags_from_file(",
+                "<std::string, std::vector<std::string>> tag_comments;"
+            ],
+            "not": [
+                "exist - \" << directory << std::endl;",
+                "write to directory! Check permissions.\" << std::endl;",
+                "open tag file: \" << filename << std::endl;",
+                "open file: \" << file << std::endl;",
+                "the last character in the line",
+                "empty before calling `find_first_not_of()`",
+                "_of(\" \\t*:/\");",
+                "making up a full batch."
+            ],
+            "open": [
+                "ing file: \" << filepath << std::endl;",
+                "tag file: \" << filename << std::endl;",
+                "file: \" << file << std::endl;",
+                "JSON file for writing!\" << std::endl;"
+            ],
+            "or": [
+                "the sequence",
+                "multi-byte sequences, validate continuation bytes",
+                "(size_t j = 1; j < seqLength; ++j) {",
+                "dered_map<std::string, std::vector<std::string>> load_tags(const std::string& filename) {",
+                "dered_map<std::string, std::vector<std::string>> tags;",
+                "y = line.substr(0, colon_pos);",
+                "ds_stream(line.substr(colon_pos + 1));",
+                "d;",
+                "ds_stream, keyword, ',')) {",
+                "y].push_back(keyword);",
+                "<std::string> read_txt(const std::string& filepath) {",
+                "<std::string> lines;",
+                "opening file: \" << filepath << std::endl;",
+                "t();",
+                "y(const std::string& directory, const std::string& tag_file) {",
+                "y)) {",
+                "Directory does not exist - \" << directory << std::endl;",
+                "y_iterator it(directory, fs::directory_options::skip_permission_denied), end;",
+                "y: \" << it->path() << std::endl;",
+                "_code()); // Move forward safely",
+                "<std::string> lines = read_txt(it->path().string());",
+                "processing file \" << it->path().string() << \": \" << e.what() << std::endl;",
+                "_code ec;",
+                "_code ec;",
+                "incrementing iterator: \" << ec.message() << std::endl;",
+                "& e) {",
+                "encountered, skipping: \" << e.what() << std::endl;",
+                "& e) {",
+                "encountered, skipping: \" << e.what() << std::endl;",
+                "_code()); // Continue without crashing",
+                "& e) {",
+                "\" << e.what() << std::endl;",
+                "y! Check permissions.\" << std::endl;",
+                "\" << e.what() << std::endl;",
+                "m(result.begin(), result.end(), result.begin(),",
+                "dered_set<std::string> load_tags_from_python(const std::string& filename) {",
+                "dered_set<std::string> tags;",
+                "matching keywords from py_tags.txt",
+                "dered_map<std::string, std::vector<std::string>> extract_tags_from_file(",
+                "dered_set<std::string>& tagSet) {",
+                "dered_map<std::string, std::vector<std::string>> tag_comments;",
+                "(const auto& tag : tagSet) {",
+                "e calling `find_first_not_of()`",
+                "invalid comment after tag '\" << tag << \"' in \" << file << \" -> Skipping line: \" << line << std::endl;",
+                "<std::string>& files,",
+                "dered_set<std::string>& tagSet) {",
+                "(const auto& file : files) {",
+                "y_py(const std::string& directory, const std::string& pytag_file) {",
+                "<std::string> pythonFiles;",
+                "y) || !fs::is_directory(directory)) {",
+                "y: \" << directory << std::endl;",
+                "y: \" << directory << std::endl;",
+                "dered_set<std::string> tagSet = load_tags_from_python(pytag_file);",
+                "scanning.\\n\";",
+                "_code ec;",
+                "y_iterator it(directory, fs::directory_options::skip_permission_denied, ec), end;",
+                "m(ext.begin(), ext.end(), ext.begin(), ::tolower);",
+                "<std::future<json>> futures;",
+                "the current file.",
+                "m(ext.begin(), ext.end(), ext.begin(), ::tolower);",
+                "<std::string>& files) -> json {",
+                "<std::string>& files,",
+                "dered_set<std::string>& tagSet) -> json {",
+                "(auto& fut : futures) {",
+                "(const auto& item : localResult.items()) {",
+                "writing!\" << std::endl;",
+                "y_full() {",
+                "y/list_directory_full.py\";",
+                "if the command failed.",
+                "Python script execution failed with code \" << result << std::endl;",
+                "y = \"C:\\\\Users\\\\joshu\\\\OneDrive\\\\Documents\\\\.MAIN FOLDER\\\\My Businesses\\\\Mad Anlger Works\\\\AI\";",
+                "y_full();",
+                "y(directory, tag_file);",
+                "y_py(directory, pytag_file);"
+            ],
+            "os": [
+                "= line.find(\":\");",
+                "!= std::string::npos) {",
+                ");",
+                "+ 1));",
+                "e();",
+                "e();",
+                "= line.find(tag);",
+                "!= std::string::npos) {",
+                "+ tag.size() >= line.size()) {",
+                "+ tag.size());",
+                ") {",
+                "e();",
+                "hu\\\\OneDrive\\\\Documents\\\\.MAIN FOLDER\\\\My Businesses\\\\Mad Anlger Works\\\\AI\";"
+            ],
+            "print": [
+                "an error if the command failed."
+            ],
+            "re": [
+                "move invalid UTF-8 sequences from a string",
+                "moveInvalidUtf8(const std::string& input) {",
+                "are enough bytes left for the sequence",
+                "ak;",
+                "ak;",
+                "turn output;",
+                "turn converter.to_bytes(converter.from_bytes(input));",
+                "turn \"\";  // If conversion fails, return empty string",
+                "d_map<std::string, std::vector<std::string>> load_tags(const std::string& filename) {",
+                "d_map<std::string, std::vector<std::string>> tags;",
+                "am file(filename);",
+                "am keywords_stream(line.substr(colon_pos + 1));",
+                "am, keyword, ',')) {",
+                "turn tags;",
+                "ad_txt(const std::string& filepath) {",
+                "am file(filepath);",
+                "turn lines;",
+                "ctory(const std::string& directory, const std::string& tag_file) {",
+                "sults;",
+                "ctory)) {",
+                "ctory does not exist - \" << directory << std::endl;",
+                "turn;",
+                "cursive_directory_iterator it(directory, fs::directory_options::skip_permission_denied), end;",
+                "ctory: \" << it->path() << std::endl;",
+                "ment(std::error_code()); // Move forward safely",
+                "gular_file()) {",
+                "ad_txt(it->path().string());",
+                "sult = process_text_files(it->path().string(), tags);",
+                "sult.empty()) {",
+                "sults.push_back(result);",
+                "ment(ec);",
+                "ment(ec);",
+                "menting iterator: \" << ec.message() << std::endl;",
+                "d, skipping: \" << e.what() << std::endl;",
+                "d, skipping: \" << e.what() << std::endl;",
+                "ment(std::error_code()); // Continue without crashing",
+                "turn;",
+                "am test(\"test_write.tmp\");",
+                "ctory! Check permissions.\" << std::endl;",
+                "move(\"test_write.tmp\");  // Clean up test file",
+                "am output_file(\"summary_results.json\");",
+                "sults.json\" << std::endl;",
+                "turn;",
+                "sults to JSON file...\" << std::endl;",
+                "sults.dump(4));",
+                "turn;",
+                "sults.dump(4);",
+                "sults.json\" << std::endl;",
+                "sult = input;",
+                "sult.begin(), result.end(), result.begin(),",
+                "turn std::tolower(c); });",
+                "turn result;",
+                "d_set<std::string> load_tags_from_python(const std::string& filename) {",
+                "d_set<std::string> tags;",
+                "am file(filename);",
+                "turn tags;",
+                "turn tags;",
+                "d_map<std::string, std::vector<std::string>> extract_tags_from_file(",
+                "d_set<std::string>& tagSet) {",
+                "d_map<std::string, std::vector<std::string>> tag_comments;",
+                "am infile(file);",
+                "turn tag_comments;",
+                "the tag is not the last character in the line",
+                "`comment` is not empty before calling `find_first_not_of()`",
+                "ading file: \" << file << \" -> \" << e.what() << std::endl;",
+                "turn tag_comments;",
+                "turn(const std::vector<std::string>& files,",
+                "d_set<std::string>& tagSet) {",
+                "turn localJson;",
+                "ctory_py(const std::string& directory, const std::string& pytag_file) {",
+                "ctory) || !fs::is_directory(directory)) {",
+                "ctory: \" << directory << std::endl;",
+                "turn;",
+                "ctory: \" << directory << std::endl;",
+                "d_set<std::string> tagSet = load_tags_from_python(pytag_file);",
+                "turn;",
+                "cursive_directory_iterator it(directory, fs::directory_options::skip_permission_denied, ec), end;",
+                "turn a JSON object.",
+                "<json>> futures;",
+                "ment(ec);",
+                "nt file.",
+                "gular file: \" << fs::is_regular_file(*it) << \")\" << std::endl;",
+                "gular files with .py extension.",
+                "gular_file(*it) && ext == \".py\") {",
+                "ached: \" << pythonFiles.size() << \" files.\" << std::endl;",
+                "s.push_back(std::async(std::launch::async,",
+                "turn process_batch_return(files, tagSet);",
+                "ment(ec);",
+                "maining files not making up a full batch.",
+                "s.push_back(std::async(std::launch::async,",
+                "d_set<std::string>& tagSet) -> json {",
+                "turn process_batch_return(files, tagSet);",
+                "f(tagSet)));",
+                "sults from the futures.",
+                "s) {",
+                "sult: \" << localResult.dump(4) << std::endl;",
+                "am output(\"python_summary_results.json\");",
+                "sults.json\" << std::endl;",
+                "ctory_full() {",
+                "ctory/list_directory_full.py\";",
+                "sult = std::system(command);",
+                "sult and print an error if the command failed.",
+                "sult != 0) {",
+                "sult << std::endl;",
+                "ctory = \"C:\\\\Users\\\\joshu\\\\OneDrive\\\\Documents\\\\.MAIN FOLDER\\\\My Businesses\\\\Mad Anlger Works\\\\AI\";",
+                "ctory_full();",
+                "ctory(directory, tag_file);",
+                "ctory_py(directory, pytag_file);",
+                "turn 0;"
+            ],
+            "return": [
+                "output;",
+                "converter.to_bytes(converter.from_bytes(input));",
+                "\"\";  // If conversion fails, return empty string",
+                "tags;",
+                "lines;",
+                ";",
+                ";",
+                ";",
+                ";",
+                "std::tolower(c); });",
+                "result;",
+                "tags;",
+                "tags;",
+                "tag_comments;",
+                "tag_comments;",
+                "(const std::vector<std::string>& files,",
+                "localJson;",
+                ";",
+                ";",
+                "a JSON object.",
+                "process_batch_return(files, tagSet);",
+                "process_batch_return(files, tagSet);",
+                "0;"
+            ],
+            "signed": [
+                "char c = input[i];",
+                "char>(input[i + j]) & 0xC0) != 0x80) {",
+                "char c) { return std::tolower(c); });"
+            ],
+            "static": [
+                "_cast<unsigned char>(input[i + j]) & 0xC0) != 0x80) {"
+            ],
+            "struct": [
+                "the command to call the Python script."
+            ],
+            "sum": [
+                "mary_results.json\");",
+                "mary_results.json\" << std::endl;",
+                "mary_results.json\" << std::endl;",
+                "mary_results.json\");",
+                "mary_results.json\" << std::endl;"
+            ],
+            "sys": [
+                "tem::filesystem_error& e) {",
+                "tem error encountered, skipping: \" << e.what() << std::endl;",
+                "tem::filesystem_error& e) {",
+                "tem error encountered, skipping: \" << e.what() << std::endl;",
+                "tem::filesystem_error& e) {",
+                "tem error: \" << e.what() << std::endl;",
+                "tem configuration.",
+                "tem(command);"
+            ],
+            "try": [
+                "the next one",
+                "{",
+                "{",
+                "{",
+                "{",
+                "{",
+                "{",
+                "{"
+            ],
+            "unsigned": [
+                "char c = input[i];",
+                "char>(input[i + j]) & 0xC0) != 0x80) {",
+                "char c) { return std::tolower(c); });"
+            ],
+            "void": [
+                "process_directory(const std::string& directory, const std::string& tag_file) {",
+                "process_directory_py(const std::string& directory, const std::string& pytag_file) {",
+                "get_list_directory_full() {"
+            ],
+            "while": [
+                "(i < input.size()) {",
+                "(std::getline(file, line)) {",
+                "(std::getline(keywords_stream, keyword, ',')) {",
+                "(std::getline(file, line)) {",
+                "(it != end) {",
+                "(std::getline(file, line)) {",
+                "(std::getline(infile, line)) {",
+                "reading file: \" << file << \" -> \" << e.what() << std::endl;",
+                "(it != end) {"
+            ],
+            "with": [
+                "out crashing",
+                ".py extension.",
+                "\" << files.size() << \" files.\" << std::endl;",
+                "\"",
+                "code \" << result << std::endl;"
+            ]
+        }
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\.MAIN FOLDER\\My Businesses\\Mad Anlger Works\\Programming\\Tools\\Ai_Comms_Assistant_v1\\Ai_Comms_Assistant\\AI\\targetFile\\C++\\tag_dir.h": {
+        "path": "C:\\Users\\joshu\\OneDrive\\Documents\\.MAIN FOLDER\\My Businesses\\Mad Anlger Works\\Programming\\Tools\\Ai_Comms_Assistant_v1\\Ai_Comms_Assistant\\AI\\targetFile\\C++\\tag_dir.h",
+        "tags": {
+            "const": [
+                "std::string& filename);",
+                "std::string& filepath);",
+                "std::string& input);",
+                "std::string& directory, const std::string& tag_file);",
+                "std::string& filename);",
+                "std::string& directory, const std::string& outputFile);",
+                "std::string& input);",
+                "std::vector<std::string>& files, const std::unordered_set<std::string>& tagSet);",
+                "std::string& file, const std::unordered_set<std::string>& tagSet);"
+            ],
+            "def": [
+                "ine _CRT_SECURE_NO_WARNINGS ",
+                "DIR_TAG_H",
+                "ine DIR_TAG_H"
+            ],
+            "dir": [
+                "ectory_full();",
+                "ectory(const std::string& directory, const std::string& tag_file);",
+                "ectory_py(const std::string& directory, const std::string& outputFile);"
+            ],
+            "extern": [
+                "std::mutex file_mutex;"
+            ],
+            "from": [
+                "_python(const std::string& filename);",
+                "_file(const std::string& file, const std::unordered_set<std::string>& tagSet);"
+            ],
+            "id": [
+                "get_list_directory_full();",
+                "Utf8(const std::string& input);",
+                "process_directory(const std::string& directory, const std::string& tag_file);",
+                "process_directory_py(const std::string& directory, const std::string& outputFile);"
+            ],
+            "if": [
+                "ndef DIR_TAG_H",
+                "DIR_TAG_H"
+            ],
+            "in": [
+                "e _CRT_SECURE_NO_WARNINGS ",
+                "e DIR_TAG_H",
+                "clude <cuda_runtime.h>",
+                "clude <iostream>",
+                "clude <fstream>",
+                "clude <vector>",
+                "clude <unordered_map>",
+                "clude <string>",
+                "clude <sstream>",
+                "clude <nlohmann/json.hpp> ",
+                "clude <algorithm>",
+                "clude <cctype>",
+                "clude <regex>",
+                "clude <codecvt>",
+                "clude <locale>",
+                "clude <filesystem>",
+                "clude <future>",
+                "clude <mutex>",
+                "clude <unordered_set>",
+                "clude \"kernel.cuh\"",
+                "clude <cstdlib>",
+                "g, std::vector<std::string>> load_tags(const std::string& filename);",
+                "g> read_txt(const std::string& filepath);",
+                "g removeInvalidUtf8(const std::string& input);",
+                "g& directory, const std::string& tag_file);",
+                "g> load_tags_from_python(const std::string& filename);",
+                "g& directory, const std::string& outputFile);",
+                "g to_lower(const std::string& input);",
+                "g>& files, const std::unordered_set<std::string>& tagSet);",
+                "g, std::vector<std::string>> extract_tags_from_file(const std::string& file, const std::unordered_set<std::string>& tagSet);"
+            ],
+            "input": [
+                ");",
+                ");"
+            ],
+            "is": [
+                "t_directory_full();"
+            ],
+            "json": [
+                ".hpp> ",
+                "process_batch_return(const std::vector<std::string>& files, const std::unordered_set<std::string>& tagSet);"
+            ],
+            "len": [
+                "ame);",
+                "ame);"
+            ],
+            "map": [
+                ">",
+                "<std::string, std::vector<std::string>> load_tags(const std::string& filename);",
+                "<std::string, std::vector<std::string>> extract_tags_from_file(const std::string& file, const std::unordered_set<std::string>& tagSet);"
+            ],
+            "or": [
+                ">",
+                "dered_map>",
+                "ithm>",
+                "dered_set>",
+                "y_full();",
+                "dered_map<std::string, std::vector<std::string>> load_tags(const std::string& filename);",
+                "<std::string> read_txt(const std::string& filepath);",
+                "y(const std::string& directory, const std::string& tag_file);",
+                "dered_set<std::string> load_tags_from_python(const std::string& filename);",
+                "y_py(const std::string& directory, const std::string& outputFile);",
+                "<std::string>& files, const std::unordered_set<std::string>& tagSet);",
+                "dered_map<std::string, std::vector<std::string>> extract_tags_from_file(const std::string& file, const std::unordered_set<std::string>& tagSet);"
+            ],
+            "os": [
+                "tream>"
+            ],
+            "re": [
+                "am>",
+                "am>",
+                "d_map>",
+                "am>",
+                "gex>",
+                ">",
+                "d_set>",
+                "ctory_full();",
+                "d_map<std::string, std::vector<std::string>> load_tags(const std::string& filename);",
+                "ad_txt(const std::string& filepath);",
+                "moveInvalidUtf8(const std::string& input);",
+                "ctory(const std::string& directory, const std::string& tag_file);",
+                "d_set<std::string> load_tags_from_python(const std::string& filename);",
+                "ctory_py(const std::string& directory, const std::string& outputFile);",
+                "turn(const std::vector<std::string>& files, const std::unordered_set<std::string>& tagSet);",
+                "d_map<std::string, std::vector<std::string>> extract_tags_from_file(const std::string& file, const std::unordered_set<std::string>& tagSet);"
+            ],
+            "return": [
+                "(const std::vector<std::string>& files, const std::unordered_set<std::string>& tagSet);"
+            ],
+            "sys": [
+                "tem>",
+                "tem;"
+            ],
+            "type": [
+                ">"
+            ],
+            "void": [
+                "get_list_directory_full();",
+                "process_directory(const std::string& directory, const std::string& tag_file);",
+                "process_directory_py(const std::string& directory, const std::string& outputFile);"
+            ]
+        }
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\.MAIN FOLDER\\My Businesses\\Mad Anlger Works\\Programming\\Tools\\Ai_Comms_Assistant_v1\\Ai_Comms_Assistant\\AI\\targetFile\\CUDA\\kernel.cu": {
+        "path": "C:\\Users\\joshu\\OneDrive\\Documents\\.MAIN FOLDER\\My Businesses\\Mad Anlger Works\\Programming\\Tools\\Ai_Comms_Assistant_v1\\Ai_Comms_Assistant\\AI\\targetFile\\CUDA\\kernel.cu",
+        "tags": {
+            "BUG": [
+                "Attempting to allocate memory for d_lines\" << std::endl;",
+                "Exiting at STEP 1 - Memory Allocation\" << std::endl;",
+                "Attempting to allocate memory for d_keywords\" << std::endl;",
+                "Exiting at STEP 2 - Memory Allocation\" << std::endl;",
+                "Attempting to allocate memory for d_results\" << std::endl;",
+                "Exiting at STEP 3 - Memory Allocation\" << std::endl;",
+                "Successfully allocated CUDA memory.\" << std::endl;",
+                "Launching CUDA Kernel with \" << blocksPerGrid << \" blocks and \" << threadsPerBlock << \" threads per block.\" << std::endl;",
+                "Exiting at STEP 4 - Kernel Launch\" << std::endl;",
+                "CUDA Kernel Launched Successfully. Now synchronizing...\" << std::endl;",
+                "Exiting at STEP 5 - Kernel Execution\" << std::endl;",
+                "CUDA Kernel Executed Successfully.\" << std::endl;",
+                "CUDA Results copied back. Checking first 10 values...\" << std::endl;",
+                "Constructing JSON output...\" << std::endl;",
+                "JSON Output Successfully Constructed.\" << std::endl;"
+            ],
+            "DEBUG": [
+                "Attempting to allocate memory for d_lines\" << std::endl;",
+                "Exiting at STEP 1 - Memory Allocation\" << std::endl;",
+                "Attempting to allocate memory for d_keywords\" << std::endl;",
+                "Exiting at STEP 2 - Memory Allocation\" << std::endl;",
+                "Attempting to allocate memory for d_results\" << std::endl;",
+                "Exiting at STEP 3 - Memory Allocation\" << std::endl;",
+                "Successfully allocated CUDA memory.\" << std::endl;",
+                "Launching CUDA Kernel with \" << blocksPerGrid << \" blocks and \" << threadsPerBlock << \" threads per block.\" << std::endl;",
+                "Exiting at STEP 4 - Kernel Launch\" << std::endl;",
+                "CUDA Kernel Launched Successfully. Now synchronizing...\" << std::endl;",
+                "Exiting at STEP 5 - Kernel Execution\" << std::endl;",
+                "CUDA Kernel Executed Successfully.\" << std::endl;",
+                "CUDA Results copied back. Checking first 10 values...\" << std::endl;",
+                "Constructing JSON output...\" << std::endl;",
+                "JSON Output Successfully Constructed.\" << std::endl;"
+            ],
+            "all": [
+                "y convert to lowercase for case-insensitive matching.",
+                "oc((void**)&d_text, MAX_SENTENCES * MAX_WORDS * sizeof(char));",
+                "oc((void**)&d_scores, MAX_SENTENCES * sizeof(int));",
+                "variables at the start to avoid skipping initialization",
+                "ocate memory for d_lines\" << std::endl;",
+                "oc(&d_lines, num_lines * MAX_LINE_LENGTH);",
+                "oc failed for d_lines: \" << cudaGetErrorString(err) << std::endl;",
+                "ocate memory for d_keywords\" << std::endl;",
+                "oc(&d_keywords, num_keywords * 32);",
+                "oc failed for d_keywords: \" << cudaGetErrorString(err) << std::endl;",
+                "ocate memory for d_results\" << std::endl;",
+                "oc(&d_results, num_lines * sizeof(int));",
+                "oc failed for d_results: \" << cudaGetErrorString(err) << std::endl;",
+                "ocated CUDA memory.\" << std::endl;",
+                "oc((void**)&d_data, fileSize) != cudaSuccess) {",
+                "oc failed for file: \" << file << std::endl;",
+                "oc: Stage 1 completed\" << std::endl;"
+            ],
+            "and": [
+                "non-space characters with a space.",
+                "category arrays",
+                "\" << threadsPerBlock << \" threads per block.\" << std::endl;",
+                "check for execution errors"
+            ],
+            "any": [
+                "character that isn't a word character or whitespace with a space.",
+                "invalid UTF-8 sequences from the line"
+            ],
+            "as": [
+                "e for case-insensitive matching.",
+                "t<int>(lines.size());",
+                "t<int>(keyword_list.size());",
+                "e)",
+                "sing initialization\" error",
+                "tError();",
+                "invalid index \" << h_results[i] << std::endl;"
+            ],
+            "auto": [
+                "& kv : tags) {",
+                "& file : files) {"
+            ],
+            "break": [
+                ";"
+            ],
+            "case": [
+                "for case-insensitive matching.",
+                ")"
+            ],
+            "catch": [
+                "(const std::exception& e) {"
+            ],
+            "char": [
+                "text, int* scores, int num_sentences) {",
+                "acters with a space.",
+                "acter that isn't a word character or whitespace with a space.",
+                ">(file)), std::istreambuf_iterator<char>());",
+                "d_text;",
+                "));",
+                "), cudaMemcpyHostToDevice);",
+                "line, const char* keyword) {",
+                "lines, char* keywords, int* results, int num_lines, int num_keywords, int max_line_length) {",
+                "line = lines + idx * max_line_length;",
+                "keyword = keywords + k * 32; // Assuming max keyword length of 32",
+                "h_lines = nullptr;",
+                "h_keywords = nullptr;",
+                "d_lines = nullptr;",
+                "d_keywords = nullptr;",
+                "[num_lines * MAX_LINE_LENGTH];",
+                "[num_keywords * 32]; // Assuming max keyword length of 32",
+                "data, int size) {",
+                "> fileData(fileSize);",
+                "d_data;"
+            ],
+            "const": [
+                "std::string& text) {",
+                "std::string& text) {",
+                "std::string& file_path) {",
+                "char* line, const char* keyword) {",
+                "std::string& filepath, const std::unordered_map<std::string, std::vector<std::string>>& tags) {",
+                "auto& kv : tags) {",
+                "std::string& category = kv.first;",
+                "std::string& keyword : kv.second) {",
+                "std::exception& e) {"
+            ],
+            "continue": [
+                ";",
+                ";",
+                ";",
+                ";",
+                ";",
+                ";",
+                ";",
+                ";"
+            ],
+            "del": [
+                "ete[] h_lines;",
+                "ete[] h_keywords;",
+                "ete[] h_results;"
+            ],
+            "dir": [
+                ".h\""
+            ],
+            "do": [
+                "ne**",
+                "n’t exceed CUDA’s max grid size"
+            ],
+            "else": [
+                "if (h_results[i] > num_keywords) {",
+                "{"
+            ],
+            "except": [
+                "ion& e) {"
+            ],
+            "for": [
+                "(int i = 0; i < MAX_WORDS; i++) {",
+                "case-insensitive matching.",
+                "m(word.begin(), word.end(), word.begin(), ::tolower);",
+                "m(word.begin(), word.end(), word.begin(), ::tolower);",
+                "(int i = 0; i < num_sentences; i++) {",
+                "(int i = 0; i < std::min((int)sorted_sentences.size(), MAX_SUMMARY_SENTENCES); i++) {",
+                "(int k = 0; k < num_keywords; k++) {",
+                "(const auto& kv : tags) {",
+                "(const std::string& keyword : kv.second) {",
+                "m(lower_keyword.begin(), lower_keyword.end(), lower_keyword.begin(), ::tolower);",
+                "(int i = 0; i < num_lines; i++) {",
+                "m(lower_line.begin(), lower_line.end(), lower_line.begin(), ::tolower);",
+                "(int i = 0; i < num_keywords; i++) {",
+                "d_lines\" << std::endl;",
+                "d_lines: \" << cudaGetErrorString(err) << std::endl;",
+                "d_keywords\" << std::endl;",
+                "d_keywords: \" << cudaGetErrorString(err) << std::endl;",
+                "d_results\" << std::endl;",
+                "d_results: \" << cudaGetErrorString(err) << std::endl;",
+                "e kernel launch** to fix \"bypassing initialization\" error",
+                "e running CUDA",
+                "launch errors before synchronization",
+                "execution errors",
+                "(int i = 0; i < std::min(num_lines, 10); i++) {",
+                "e freeing memory",
+                "(int i = 0; i < num_lines; i++) {",
+                "category_list.\" << std::endl;",
+                "(auto& file : files) {",
+                "file: \" << file << std::endl;",
+                "file: \" << file << std::endl;",
+                "file: \" << file",
+                "file: \" << file << std::endl;"
+            ],
+            "from": [
+                "categories!\" << std::endl;",
+                "GPU",
+                "the line"
+            ],
+            "function": [
+                "instead of strstr()"
+            ],
+            "global": [
+                "__ void calculate_sentence_scores(char* text, int* scores, int num_sentences) {",
+                "__ void tag_text_lines(char* lines, char* keywords, int* results, int num_lines, int num_keywords, int max_line_length) {",
+                "__ void tag_python_lines(char* data, int size) {"
+            ],
+            "id": [
+                "calculate_sentence_scores(char* text, int* scores, int num_sentences) {",
+                "x = threadIdx.x;",
+                "x < num_sentences) {",
+                "x * MAX_WORDS + i] == '\\0') break;",
+                "x * MAX_WORDS + i] == ' ') score++;",
+                "x] = score;",
+                ")&d_text, MAX_SENTENCES * MAX_WORDS * sizeof(char));",
+                ")&d_scores, MAX_SENTENCES * sizeof(int));",
+                "tag_text_lines(char* lines, char* keywords, int* results, int num_lines, int num_keywords, int max_line_length) {",
+                "x = blockIdx.x * blockDim.x + threadIdx.x;",
+                "x < num_lines) {",
+                "x * max_line_length;",
+                "x] = k + 1; // Store keyword index if found",
+                "skipping initialization",
+                "= (num_lines + threadsPerBlock - 1) / threadsPerBlock;",
+                "ate CUDA kernel launch parameters",
+                "<= 0 || threadsPerBlock <= 0) {",
+                "kernel launch configuration: blocksPerGrid = \" << blocksPerGrid << std::endl;",
+                "<< \" blocks and \" << threadsPerBlock << \" threads per block.\" << std::endl;",
+                ", threadsPerBlock >> > (d_lines, d_keywords, d_results, num_lines, num_keywords, MAX_LINE_LENGTH);",
+                "index \" << h_results[i] << std::endl;",
+                "UTF-8 sequences from the line",
+                "Utf8(lines[i]);",
+                "index \" << h_results[i] << \" for category_list.\" << std::endl;",
+                "tag_python_lines(char* data, int size) {",
+                "x = threadIdx.x + blockIdx.x * blockDim.x;",
+                "x < size - 6) //Buffering the index",
+                "x] == '#' && (data[idx + 1] == ' ' || data[idx + 1] == '\\t')) {",
+                "process_python_files(std::vector<std::string>& files) {",
+                ")&d_data, fileSize) != cudaSuccess) {",
+                "Size = (fileSize + blockSize - 1) / blockSize;",
+                "size",
+                "Size;",
+                "Size, cudaDevAttrMaxGridDimX, 0);",
+                "Size = std::min(gridSize, maxGridSize);",
+                "Size, blockSize >> > (d_data, fileSize);"
+            ],
+            "if": [
+                "(idx < num_sentences) {",
+                "(text[idx * MAX_WORDS + i] == '\\0') break;",
+                "(text[idx * MAX_WORDS + i] == ' ') score++;",
+                "stream file(file_path);",
+                "(!file) return \"Error opening file.\";",
+                "(num_sentences == 0) return \"File is empty.\";",
+                "a keyword exists in each line",
+                "(keyword[j] == '\\0') {",
+                "(idx < num_lines) {",
+                "(contains(line, keyword)) { // Use custom function instead of strstr()",
+                "found",
+                "(num_lines == 0 || tags.empty()) return json();",
+                "(num_keywords == 0) {",
+                "(err != cudaSuccess) {",
+                "(err != cudaSuccess) {",
+                "(err != cudaSuccess) {",
+                "(blocksPerGrid <= 0 || threadsPerBlock <= 0) {",
+                "(err != cudaSuccess) {",
+                "(launchError != cudaSuccess) {",
+                "(kernel_err != cudaSuccess) {",
+                "(h_results[i] < 0 || h_results[i] >= num_keywords) {",
+                "(h_results[i] >= 0 && h_results[i] < num_keywords) {",
+                "(h_results[i] > num_keywords) {",
+                "no matches found",
+                "(!foundMatch) {",
+                "(idx < size - 6) //Buffering the index",
+                "(data[idx] == '#' && (data[idx + 1] == ' ' || data[idx + 1] == '\\t')) {",
+                "stream inFile(file, std::ios::binary | std::ios::ate);",
+                "(!inFile) {",
+                "(fileSize == 0) {",
+                "(cudaMalloc((void**)&d_data, fileSize) != cudaSuccess) {",
+                "(cudaMemcpy(d_data, fileData.data(), fileSize, cudaMemcpyHostToDevice) != cudaSuccess) {",
+                "(err != cudaSuccess) {",
+                "(cudaMemcpy(fileData.data(), d_data, fileSize, cudaMemcpyDeviceToHost) != cudaSuccess) {",
+                "(!outFile) {"
+            ],
+            "in": [
+                "clude \"kernel.cuh\"",
+                "clude \"tag_dir.h\"",
+                "t* scores, int num_sentences) {",
+                "t idx = threadIdx.x;",
+                "t score = 0;",
+                "t i = 0; i < MAX_WORDS; i++) {",
+                "g> tokenize_sentences(const std::string& text) {",
+                "g non-word and non-space characters with a space.",
+                "g cleaned = std::regex_replace(text, std::regex(R\"([^\\w\\s])\"), \" \");",
+                "gstream iss(cleaned);",
+                "g> tokens;",
+                "g word;",
+                "sensitive matching.",
+                "(), word.end(), word.begin(), ::tolower);",
+                "g> tokenizeWords(const std::string& text) {",
+                "g cleaned = std::regex_replace(text, std::regex(R\"([^\\w\\s])\"), \" \");",
+                "gstream iss(cleaned);",
+                "g> tokens;",
+                "g word;",
+                "(), word.end(), word.begin(), ::tolower);",
+                "g summarize_text(const std::string& file_path) {",
+                "g file.\";",
+                "g text((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());",
+                "g> sentences = tokenize_sentences(text);",
+                "t num_sentences = sentences.size();",
+                "t* d_scores;",
+                "t h_scores[MAX_SENTENCES] = { 0 };",
+                "t));",
+                "t), cudaMemcpyDeviceToHost);",
+                "t, std::string>> sorted_sentences;",
+                "t i = 0; i < num_sentences; i++) {",
+                "(), sorted_sentences.end(), std::greater<>());",
+                "g summary;",
+                "t i = 0; i < std::min((int)sorted_sentences.size(), MAX_SUMMARY_SENTENCES); i++) {",
+                "each line",
+                "s(const char* line, const char* keyword) {",
+                "t i = 0;",
+                "e[i] != '\\0') {",
+                "t j = 0;",
+                "e[i + j] != '\\0' && keyword[j] != '\\0' && line[i + j] == keyword[j]) {",
+                "es(char* lines, char* keywords, int* results, int num_lines, int num_keywords, int max_line_length) {",
+                "t idx = blockIdx.x * blockDim.x + threadIdx.x;",
+                "es) {",
+                "e = lines + idx * max_line_length;",
+                "t k = 0; k < num_keywords; k++) {",
+                "g max keyword length of 32",
+                "s(line, keyword)) { // Use custom function instead of strstr()",
+                "dex if found",
+                "g CUDA",
+                "g& filepath, const std::unordered_map<std::string, std::vector<std::string>>& tags) {",
+                "g File: \" << filepath << std::endl;",
+                "g> lines = read_txt(filepath);",
+                "t num_lines = static_cast<int>(lines.size());",
+                "es == 0 || tags.empty()) return json();",
+                "to keyword and category arrays",
+                "g> keyword_list;",
+                "g> category_list;",
+                "g& category = kv.first;",
+                "g& keyword : kv.second) {",
+                "g lower_keyword = keyword;",
+                "(), lower_keyword.end(), lower_keyword.begin(), ::tolower);",
+                "t num_keywords = static_cast<int>(keyword_list.size());",
+                "g initialization",
+                "es = nullptr;",
+                "t* h_results = nullptr;",
+                "es = nullptr;",
+                "t* d_results = nullptr;",
+                "es = new char[num_lines * MAX_LINE_LENGTH];",
+                "g max keyword length of 32",
+                "t[num_lines];",
+                "g data",
+                "es, 0, num_lines * MAX_LINE_LENGTH);",
+                "es * sizeof(int));",
+                "es into fixed-size buffers (convert to lowercase)",
+                "t i = 0; i < num_lines; i++) {",
+                "g lower_line = lines[i];",
+                "e.begin(), lower_line.end(), lower_line.begin(), ::tolower);",
+                "es + i * MAX_LINE_LENGTH, lower_line.c_str(), MAX_LINE_LENGTH - 1);",
+                "to fixed-size buffers (Ensure null termination)",
+                "t i = 0; i < num_keywords; i++) {",
+                "ation",
+                "g to allocate memory for d_lines\" << std::endl;",
+                "es, num_lines * MAX_LINE_LENGTH);",
+                "es: \" << cudaGetErrorString(err) << std::endl;",
+                "g at STEP 1 - Memory Allocation\" << std::endl;",
+                "g to allocate memory for d_keywords\" << std::endl;",
+                "g(err) << std::endl;",
+                "g at STEP 2 - Memory Allocation\" << std::endl;",
+                "g to allocate memory for d_results\" << std::endl;",
+                "es * sizeof(int));",
+                "g(err) << std::endl;",
+                "g at STEP 3 - Memory Allocation\" << std::endl;",
+                "e these variables **before kernel launch** to fix \"bypassing initialization\" error",
+                "t threadsPerBlock = 256;",
+                "t blocksPerGrid = (num_lines + threadsPerBlock - 1) / threadsPerBlock;",
+                "es, h_lines, num_lines * MAX_LINE_LENGTH, cudaMemcpyHostToDevice);",
+                "es * sizeof(int), cudaMemcpyHostToDevice);",
+                "g CUDA Kernel with \" << blocksPerGrid << \" blocks and \" << threadsPerBlock << \" threads per block.\" << std::endl;",
+                "t memory info before running CUDA",
+                "es << <blocksPerGrid, threadsPerBlock >> > (d_lines, d_keywords, d_results, num_lines, num_keywords, MAX_LINE_LENGTH);",
+                "g(err) << std::endl;",
+                "g(launchError) << std::endl;",
+                "g at STEP 4 - Kernel Launch\" << std::endl;",
+                "g...\" << std::endl;",
+                "g(kernel_err) << std::endl;",
+                "g at STEP 5 - Kernel Execution\" << std::endl;",
+                "es * sizeof(int), cudaMemcpyDeviceToHost);",
+                "g first 10 values...\" << std::endl;",
+                "g CUDA Results: h_results first 10 values = \";",
+                "t i = 0; i < std::min(num_lines, 10); i++) {",
+                "g: h_results[\" << i << \"] has invalid index \" << h_results[i] << std::endl;",
+                "ue;",
+                "g memory",
+                "t i = 0; i < num_lines; i++) {",
+                "valid UTF-8 sequences from the line",
+                "g sanitizedLine = removeInvalidUtf8(lines[i]);",
+                "g matched_category = category_list[h_results[i]];",
+                "e);",
+                "g: Invalid index \" << h_results[i] << \" for category_list.\" << std::endl;",
+                "this file!\\n\";",
+                "g JSON output...\" << std::endl;",
+                "g Error: \" << e.what() << std::endl;",
+                "g is done**",
+                "es);",
+                "es;",
+                "es(char* data, int size) {",
+                "t idx = threadIdx.x + blockIdx.x * blockDim.x;",
+                "g the index",
+                "g>& files) {",
+                "g Python Files With Cuda \" << std::endl;",
+                "File(file, std::ios::binary | std::ios::ate);",
+                "File) {",
+                "g file: \" << file << std::endl;",
+                "ue;",
+                "File.tellg();",
+                "File.seekg(0, std::ios::beg);",
+                "g empty file: \" << file << std::endl;",
+                "ue;",
+                "File.read(fileData.data(), fileSize);",
+                "File.close();",
+                "ue;",
+                "ue;",
+                "t blockSize = 256;",
+                "t gridSize = (fileSize + blockSize - 1) / blockSize;",
+                "t maxGridSize;",
+                "(gridSize, maxGridSize);",
+                "es << <gridSize, blockSize >> > (d_data, fileSize);",
+                "g(err) << std::endl;",
+                "ue;",
+                "ue;",
+                "ary);",
+                "g file: \" << file << std::endl;",
+                "ue;"
+            ],
+            "int": [
+                "scores, int num_sentences) {",
+                "idx = threadIdx.x;",
+                "score = 0;",
+                "i = 0; i < MAX_WORDS; i++) {",
+                "num_sentences = sentences.size();",
+                "d_scores;",
+                "h_scores[MAX_SENTENCES] = { 0 };",
+                "));",
+                "), cudaMemcpyDeviceToHost);",
+                ", std::string>> sorted_sentences;",
+                "i = 0; i < num_sentences; i++) {",
+                "i = 0; i < std::min((int)sorted_sentences.size(), MAX_SUMMARY_SENTENCES); i++) {",
+                "i = 0;",
+                "j = 0;",
+                "results, int num_lines, int num_keywords, int max_line_length) {",
+                "idx = blockIdx.x * blockDim.x + threadIdx.x;",
+                "k = 0; k < num_keywords; k++) {",
+                "num_lines = static_cast<int>(lines.size());",
+                "o keyword and category arrays",
+                "num_keywords = static_cast<int>(keyword_list.size());",
+                "h_results = nullptr;",
+                "d_results = nullptr;",
+                "[num_lines];",
+                "));",
+                "o fixed-size buffers (convert to lowercase)",
+                "i = 0; i < num_lines; i++) {",
+                "o fixed-size buffers (Ensure null termination)",
+                "i = 0; i < num_keywords; i++) {",
+                "));",
+                "threadsPerBlock = 256;",
+                "blocksPerGrid = (num_lines + threadsPerBlock - 1) / threadsPerBlock;",
+                "), cudaMemcpyHostToDevice);",
+                "memory info before running CUDA",
+                "), cudaMemcpyDeviceToHost);",
+                "i = 0; i < std::min(num_lines, 10); i++) {",
+                "i = 0; i < num_lines; i++) {",
+                "size) {",
+                "idx = threadIdx.x + blockIdx.x * blockDim.x;",
+                "blockSize = 256;",
+                "gridSize = (fileSize + blockSize - 1) / blockSize;",
+                "maxGridSize;"
+            ],
+            "is": [
+                "tringstream iss(cleaned);",
+                "s >> word) {",
+                "n't a word character or whitespace with a space.",
+                "tringstream iss(cleaned);",
+                "s >> word) {",
+                "treambuf_iterator<char>(file)), std::istreambuf_iterator<char>());",
+                "empty.\";",
+                "ts in each line",
+                "t into keyword and category arrays",
+                "t;",
+                "t;",
+                "t.push_back(lower_keyword);",
+                "t.push_back(category);",
+                "t.size());",
+                "t[i].c_str(), 31);",
+                "logged properly",
+                "t[h_results[i]];",
+                "t.\" << std::endl;",
+                "file!\\n\";",
+                "done**",
+                "built**"
+            ],
+            "json": [
+                "process_text_files(const std::string& filepath, const std::unordered_map<std::string, std::vector<std::string>>& tags) {",
+                "();",
+                "();",
+                "output;",
+                "summary;",
+                "(); // Ensure the error is logged properly",
+                "();"
+            ],
+            "len": [
+                "gth) {",
+                "gth;",
+                "gth of 32",
+                "gth of 32"
+            ],
+            "let": [
+                "e[] h_lines;",
+                "e[] h_keywords;",
+                "e[] h_results;",
+                "ed\" << std::endl;"
+            ],
+            "map": [
+                "<std::string, std::vector<std::string>>& tags) {"
+            ],
+            "max": [
+                "_line_length) {",
+                "_line_length;",
+                "keyword length of 32",
+                "keyword length of 32",
+                "grid size",
+                "GridSize;",
+                "GridSize, cudaDevAttrMaxGridDimX, 0);",
+                "GridSize);"
+            ],
+            "min": [
+                "((int)sorted_sentences.size(), MAX_SUMMARY_SENTENCES); i++) {",
+                "g max keyword length of 32",
+                "g max keyword length of 32",
+                "ation)",
+                "ation",
+                "(num_lines, 10); i++) {",
+                "(gridSize, maxGridSize);"
+            ],
+            "new": [
+                "char[num_lines * MAX_LINE_LENGTH];",
+                "char[num_keywords * 32]; // Assuming max keyword length of 32",
+                "int[num_lines];"
+            ],
+            "null": [
+                "ptr;",
+                "ptr;",
+                "ptr;",
+                "ptr;",
+                "ptr;",
+                "ptr;",
+                "termination)",
+                "termination"
+            ],
+            "open": [
+                "ing file.\";",
+                "ing file: \" << file << std::endl;"
+            ],
+            "or": [
+                "es(char* text, int* scores, int num_sentences) {",
+                "e = 0;",
+                "(int i = 0; i < MAX_WORDS; i++) {",
+                "e++;",
+                "es[idx] = score;",
+                "<std::string> tokenize_sentences(const std::string& text) {",
+                "d and non-space characters with a space.",
+                "<std::string> tokens;",
+                "d;",
+                "d) {",
+                "case-insensitive matching.",
+                "m(word.begin(), word.end(), word.begin(), ::tolower);",
+                "d);",
+                "<std::string> tokenizeWords(const std::string& text) {",
+                "d character or whitespace with a space.",
+                "<std::string> tokens;",
+                "d;",
+                "d) {",
+                "m(word.begin(), word.end(), word.begin(), ::tolower);",
+                "d);",
+                "opening file.\";",
+                "<char>(file)), std::istreambuf_iterator<char>());",
+                "<std::string> sentences = tokenize_sentences(text);",
+                "es;",
+                "es[MAX_SENTENCES] = { 0 };",
+                "es, MAX_SENTENCES * sizeof(int));",
+                "es << <1, num_sentences >> > (d_text, d_scores, num_sentences);",
+                "es, d_scores, num_sentences * sizeof(int), cudaMemcpyDeviceToHost);",
+                "es);",
+                "<std::pair<int, std::string>> sorted_sentences;",
+                "(int i = 0; i < num_sentences; i++) {",
+                "ted_sentences.emplace_back(h_scores[i], sentences[i]);",
+                "t(sorted_sentences.begin(), sorted_sentences.end(), std::greater<>());",
+                "(int i = 0; i < std::min((int)sorted_sentences.size(), MAX_SUMMARY_SENTENCES); i++) {",
+                "ted_sentences[i].second + \". \";",
+                "d exists in each line",
+                "d) {",
+                "d[j] != '\\0' && line[i + j] == keyword[j]) {",
+                "d[j] == '\\0') {",
+                "d",
+                "ds, int* results, int num_lines, int num_keywords, int max_line_length) {",
+                "(int k = 0; k < num_keywords; k++) {",
+                "d = keywords + k * 32; // Assuming max keyword length of 32",
+                "d)) { // Use custom function instead of strstr()",
+                "e keyword index if found",
+                "dered_map<std::string, std::vector<std::string>>& tags) {",
+                "<std::string> lines = read_txt(filepath);",
+                "d and category arrays",
+                "<std::string> keyword_list;",
+                "<std::string> category_list;",
+                "(const auto& kv : tags) {",
+                "y = kv.first;",
+                "(const std::string& keyword : kv.second) {",
+                "d = keyword;",
+                "m(lower_keyword.begin(), lower_keyword.end(), lower_keyword.begin(), ::tolower);",
+                "d_list.push_back(lower_keyword);",
+                "y_list.push_back(category);",
+                "ds = static_cast<int>(keyword_list.size());",
+                "ds == 0) {",
+                "No keywords were loaded from categories!\" << std::endl;",
+                "ds = nullptr;",
+                "ds = nullptr;",
+                "y",
+                "ds = new char[num_keywords * 32]; // Assuming max keyword length of 32",
+                "y BEFORE copying data",
+                "ds, 0, num_keywords * 32);",
+                "(int i = 0; i < num_lines; i++) {",
+                "m(lower_line.begin(), lower_line.end(), lower_line.begin(), ::tolower);",
+                "ds into fixed-size buffers (Ensure null termination)",
+                "(int i = 0; i < num_keywords; i++) {",
+                "ds + i * 32, keyword_list[i].c_str(), 31);",
+                "ds[i * 32 + 31] = '\\0'; // Force null termination",
+                "y",
+                "_t err;",
+                "y for d_lines\" << std::endl;",
+                "d_lines: \" << cudaGetErrorString(err) << std::endl;",
+                "y Allocation\" << std::endl;",
+                "y for d_keywords\" << std::endl;",
+                "ds, num_keywords * 32);",
+                "d_keywords: \" << cudaGetErrorString(err) << std::endl;",
+                "y Allocation\" << std::endl;",
+                "y for d_results\" << std::endl;",
+                "d_results: \" << cudaGetErrorString(err) << std::endl;",
+                "y Allocation\" << std::endl;",
+                "y.\" << std::endl;",
+                "e kernel launch** to fix \"bypassing initialization\" error",
+                "ds, h_keywords, num_keywords * 32, cudaMemcpyHostToDevice);",
+                "y info before running CUDA",
+                "y Status: Free = \" << free_mem << \" / Total = \" << total_mem << std::endl;",
+                "ds, d_results, num_lines, num_keywords, MAX_LINE_LENGTH);",
+                "launch errors before synchronization",
+                "_t launchError = cudaGetLastError();",
+                "\" << cudaGetErrorString(err) << std::endl;",
+                "is logged properly",
+                "!= cudaSuccess) {",
+                "\" << cudaGetErrorString(launchError) << std::endl;",
+                "execution errors",
+                "_t kernel_err = cudaDeviceSynchronize();",
+                "String(kernel_err) << std::endl;",
+                "(int i = 0; i < std::min(num_lines, 10); i++) {",
+                "ds) {",
+                "e freeing memory",
+                "(int i = 0; i < num_lines; i++) {",
+                "ds) {",
+                "y = category_list[h_results[i]];",
+                "y].push_back(sanitizedLine);",
+                "ds) {",
+                "category_list.\" << std::endl;",
+                "\"] = \"No matches found\";",
+                "\" << e.what() << std::endl;",
+                "y after processing is done**",
+                "ds);",
+                "y after JSON is built**",
+                "ds;",
+                "<std::string>& files) {",
+                "(auto& file : files) {",
+                "opening file: \" << file << std::endl;",
+                "<char> fileData(fileSize);",
+                "y",
+                "file: \" << file << std::endl;",
+                "file: \" << file << std::endl;",
+                "_t err = cudaDeviceSynchronize();",
+                "file: \" << file",
+                "\" << cudaGetErrorString(err) << std::endl;",
+                "file: \" << file << std::endl;",
+                "y",
+                "writing file: \" << file << std::endl;"
+            ],
+            "os": [
+                "e();",
+                "tToDevice);",
+                "t);",
+                "tToDevice);",
+                "tToDevice);",
+                "tToDevice);",
+                "t);",
+                "binary | std::ios::ate);",
+                "beg);",
+                "e();",
+                "tToDevice) != cudaSuccess) {",
+                "tToDevice) failed for file: \" << file << std::endl;",
+                "t) != cudaSuccess) {",
+                "t) failed for file: \" << file << std::endl;",
+                "binary);",
+                "e();"
+            ],
+            "pass": [
+                "ing initialization\" error"
+            ],
+            "re": [
+                "s(char* text, int* scores, int num_sentences) {",
+                "adIdx.x;",
+                "= 0;",
+                "ak;",
+                "++;",
+                "s[idx] = score;",
+                "placing non-word and non-space characters with a space.",
+                "gex_replace(text, std::regex(R\"([^\\w\\s])\"), \" \");",
+                "am iss(cleaned);",
+                "turn tokens;",
+                "gex_replace(text, std::regex(R\"([^\\w\\s])\"), \" \");",
+                "am iss(cleaned);",
+                "turn tokens;",
+                "am file(file_path);",
+                "turn \"Error opening file.\";",
+                "ambuf_iterator<char>(file)), std::istreambuf_iterator<char>());",
+                "turn \"File is empty.\";",
+                "s;",
+                "s[MAX_SENTENCES] = { 0 };",
+                "s, MAX_SENTENCES * sizeof(int));",
+                "s << <1, num_sentences >> > (d_text, d_scores, num_sentences);",
+                "s, d_scores, num_sentences * sizeof(int), cudaMemcpyDeviceToHost);",
+                "e(d_text);",
+                "e(d_scores);",
+                "s[i], sentences[i]);",
+                "ater<>());",
+                "turn summary;",
+                "turn true;  // Found keyword",
+                "turn false;",
+                "sults, int num_lines, int num_keywords, int max_line_length) {",
+                "adIdx.x;",
+                "sults[idx] = k + 1; // Store keyword index if found",
+                "d_map<std::string, std::vector<std::string>>& tags) {",
+                "ad_txt(filepath);",
+                "turn json();",
+                "loaded from categories!\" << std::endl;",
+                "turn json();",
+                "all variables at the start to avoid skipping initialization",
+                "sults = nullptr;",
+                "sults = nullptr;",
+                "sults = new int[num_lines];",
+                "sults, 0, num_lines * sizeof(int));",
+                "null termination)",
+                "turn 3;",
+                "turn 3;",
+                "sults\" << std::endl;",
+                "sults, num_lines * sizeof(int));",
+                "sults: \" << cudaGetErrorString(err) << std::endl;",
+                "turn 3;",
+                "kernel launch** to fix \"bypassing initialization\" error",
+                "adsPerBlock = 256;",
+                "adsPerBlock - 1) / threadsPerBlock;",
+                "sults, h_results, num_lines * sizeof(int), cudaMemcpyHostToDevice);",
+                "adsPerBlock <= 0) {",
+                "turn 3;",
+                "adsPerBlock << \" threads per block.\" << std::endl;",
+                "running CUDA",
+                "e_mem, total_mem;",
+                "e_mem, &total_mem);",
+                "e = \" << free_mem << \" / Total = \" << total_mem << std::endl;",
+                "adsPerBlock >> > (d_lines, d_keywords, d_results, num_lines, num_keywords, MAX_LINE_LENGTH);",
+                "synchronization",
+                "turn json(); // Ensure the error is logged properly",
+                "turn json();",
+                "turn 3;",
+                "sults back from GPU",
+                "sults, d_results, num_lines * sizeof(int), cudaMemcpyDeviceToHost);",
+                "sults first 10 values = \";",
+                "sults[i] < 0 || h_results[i] >= num_keywords) {",
+                "sults[\" << i << \"] has invalid index \" << h_results[i] << std::endl;",
+                "freeing memory",
+                "moveInvalidUtf8(lines[i]);",
+                "sults[i] >= 0 && h_results[i] < num_keywords) {",
+                "sults[i]];",
+                "sults[i] > num_keywords) {",
+                "sults[i] << \" for category_list.\" << std::endl;",
+                "vent empty JSON if no matches found",
+                "turn 3;",
+                "e GPU memory after processing is done**",
+                "e(d_lines);",
+                "e(d_keywords);",
+                "e(d_results);",
+                "e CPU memory after JSON is built**",
+                "sults;",
+                "turn output;",
+                "adIdx.x + blockIdx.x * blockDim.x;",
+                "am inFile(file, std::ios::binary | std::ios::ate);",
+                "ad(fileData.data(), fileSize);",
+                "e(d_data);",
+                "we don’t exceed CUDA’s max grid size",
+                "e(d_data);",
+                "e(d_data);",
+                "e(d_data); // Always free CUDA memory",
+                "am outFile(file, std::ios::binary);"
+            ],
+            "return": [
+                "tokens;",
+                "tokens;",
+                "\"Error opening file.\";",
+                "\"File is empty.\";",
+                "summary;",
+                "true;  // Found keyword",
+                "false;",
+                "json();",
+                "json();",
+                "3;",
+                "3;",
+                "3;",
+                "3;",
+                "json(); // Ensure the error is logged properly",
+                "json();",
+                "3;",
+                "3;",
+                "output;"
+            ],
+            "sizeof": [
+                "(char));",
+                "(int));",
+                "(char), cudaMemcpyHostToDevice);",
+                "(int), cudaMemcpyDeviceToHost);",
+                "(int));",
+                "(int));",
+                "(int), cudaMemcpyHostToDevice);",
+                "(int), cudaMemcpyDeviceToHost);"
+            ],
+            "sorted": [
+                "_sentences;",
+                "_sentences.emplace_back(h_scores[i], sentences[i]);",
+                "_sentences.begin(), sorted_sentences.end(), std::greater<>());",
+                "_sentences.size(), MAX_SUMMARY_SENTENCES); i++) {",
+                "_sentences[i].second + \". \";"
+            ],
+            "static": [
+                "_cast<int>(lines.size());",
+                "_cast<int>(keyword_list.size());"
+            ],
+            "struct": [
+                "ing JSON output...\" << std::endl;",
+                "ed.\" << std::endl;"
+            ],
+            "sum": [
+                "marize_text(const std::string& file_path) {",
+                "mary;",
+                "mary += sorted_sentences[i].second + \". \";",
+                "mary;",
+                "ing max keyword length of 32",
+                "mary;",
+                "ing max keyword length of 32",
+                "mary[matched_category].push_back(sanitizedLine);",
+                "mary\"] = summary;"
+            ],
+            "this": [
+                "file!\\n\";"
+            ],
+            "try": [
+                "{"
+            ],
+            "var": [
+                "iables at the start to avoid skipping initialization",
+                "iables **before kernel launch** to fix \"bypassing initialization\" error"
+            ],
+            "void": [
+                "calculate_sentence_scores(char* text, int* scores, int num_sentences) {",
+                ")&d_text, MAX_SENTENCES * MAX_WORDS * sizeof(char));",
+                ")&d_scores, MAX_SENTENCES * sizeof(int));",
+                "tag_text_lines(char* lines, char* keywords, int* results, int num_lines, int num_keywords, int max_line_length) {",
+                "skipping initialization",
+                "tag_python_lines(char* data, int size) {",
+                "process_python_files(std::vector<std::string>& files) {",
+                ")&d_data, fileSize) != cudaSuccess) {"
+            ],
+            "while": [
+                "(iss >> word) {",
+                "(iss >> word) {",
+                "(line[i] != '\\0') {",
+                "(line[i + j] != '\\0' && keyword[j] != '\\0' && line[i + j] == keyword[j]) {"
+            ],
+            "with": [
+                "a space.",
+                "a space.",
+                "\" << blocksPerGrid << \" blocks and \" << threadsPerBlock << \" threads per block.\" << std::endl;",
+                "matches before freeing memory",
+                "CUDA",
+                "error: \" << cudaGetErrorString(err) << std::endl;"
+            ]
+        }
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\.MAIN FOLDER\\My Businesses\\Mad Anlger Works\\Programming\\Tools\\Ai_Comms_Assistant_v1\\Ai_Comms_Assistant\\AI\\targetFile\\CUDA\\kernel.cuh": {
+        "path": "C:\\Users\\joshu\\OneDrive\\Documents\\.MAIN FOLDER\\My Businesses\\Mad Anlger Works\\Programming\\Tools\\Ai_Comms_Assistant_v1\\Ai_Comms_Assistant\\AI\\targetFile\\CUDA\\kernel.cuh",
+        "tags": {
+            "as": [
+                "ed on keywords"
+            ],
+            "char": [
+                "text, int* scores, int num_sentences);",
+                "line, const char* keyword);",
+                "lines, char* keywords, int* results, int num_lines, int num_keywords, int max_line_length);",
+                "data, int size);"
+            ],
+            "const": [
+                "std::string& text);",
+                "std::string& text);",
+                "std::string& file_path);",
+                "char* line, const char* keyword);",
+                "std::string& filepath, const std::unordered_map<std::string, std::vector<std::string>>& tags);"
+            ],
+            "def": [
+                "KERNEL_CUH",
+                "ine KERNEL_CUH",
+                "ine MAX_SENTENCES 1024",
+                "ine MAX_WORDS 1024",
+                "ine MAX_SUMMARY_SENTENCES 5",
+                "ine MAX_LINE_LENGTH 1024",
+                "ine MAX_KEYWORD_LENGTH 32",
+                "ine MAX_KEYWORDS 100;",
+                "ine _CRT_SECURE_NO_WARNINGS"
+            ],
+            "for": [
+                "calculating sentence scores",
+                "checking if a keyword exists in a line",
+                "tagging lines based on keywords"
+            ],
+            "function": [
+                "s"
+            ],
+            "global": [
+                "__ void calculate_sentence_scores(char* text, int* scores, int num_sentences);",
+                "__ void tag_text_lines(char* lines, char* keywords, int* results, int num_lines, int num_keywords, int max_line_length);",
+                "__ void tag_python_lines(char* data, int size);"
+            ],
+            "id": [
+                "calculate_sentence_scores(char* text, int* scores, int num_sentences);",
+                "tag_text_lines(char* lines, char* keywords, int* results, int num_lines, int num_keywords, int max_line_length);",
+                "tag_python_lines(char* data, int size);",
+                "process_python_files(std::vector<std::string>& files);"
+            ],
+            "if": [
+                "ndef KERNEL_CUH",
+                "a keyword exists in a line",
+                "KERNEL_CUH"
+            ],
+            "in": [
+                "e KERNEL_CUH",
+                "clude <cuda_runtime.h>",
+                "clude <iostream>",
+                "clude <fstream>",
+                "clude <vector>",
+                "clude <unordered_map>",
+                "clude <string>",
+                "clude <sstream>",
+                "clude <nlohmann/json.hpp> ",
+                "clude <algorithm>",
+                "clude <cctype>",
+                "clude <regex>",
+                "clude <codecvt>",
+                "clude <locale>",
+                "clude <filesystem>",
+                "e MAX_SENTENCES 1024",
+                "e MAX_WORDS 1024",
+                "e MAX_SUMMARY_SENTENCES 5",
+                "e MAX_LINE_LENGTH 1024",
+                "e MAX_KEYWORD_LENGTH 32",
+                "e MAX_KEYWORDS 100;",
+                "e _CRT_SECURE_NO_WARNINGS",
+                "g json = nlohmann::json;",
+                "g sentence scores",
+                "t* scores, int num_sentences);",
+                "g> tokenize_sentences(const std::string& text);",
+                "g> tokenizeWords(const std::string& text);",
+                "g summarize_text(const std::string& file_path);",
+                "g if a keyword exists in a line",
+                "s(const char* line, const char* keyword);",
+                "g lines based on keywords",
+                "es(char* lines, char* keywords, int* results, int num_lines, int num_keywords, int max_line_length);",
+                "es(char* data, int size);",
+                "g CUDA",
+                "g& filepath, const std::unordered_map<std::string, std::vector<std::string>>& tags);",
+                "g>& files);"
+            ],
+            "int": [
+                "scores, int num_sentences);",
+                "results, int num_lines, int num_keywords, int max_line_length);",
+                "size);"
+            ],
+            "is": [
+                "ts in a line"
+            ],
+            "json": [
+                ".hpp> ",
+                "= nlohmann::json;",
+                "process_text_files(const std::string& filepath, const std::unordered_map<std::string, std::vector<std::string>>& tags);"
+            ],
+            "len": [
+                "gth);"
+            ],
+            "map": [
+                ">",
+                "<std::string, std::vector<std::string>>& tags);"
+            ],
+            "max": [
+                "_line_length);"
+            ],
+            "or": [
+                ">",
+                "dered_map>",
+                "ithm>",
+                "calculating sentence scores",
+                "es(char* text, int* scores, int num_sentences);",
+                "<std::string> tokenize_sentences(const std::string& text);",
+                "<std::string> tokenizeWords(const std::string& text);",
+                "checking if a keyword exists in a line",
+                "d);",
+                "tagging lines based on keywords",
+                "ds, int* results, int num_lines, int num_keywords, int max_line_length);",
+                "dered_map<std::string, std::vector<std::string>>& tags);",
+                "<std::string>& files);"
+            ],
+            "os": [
+                "tream>"
+            ],
+            "re": [
+                "am>",
+                "am>",
+                "d_map>",
+                "am>",
+                "gex>",
+                "s",
+                "s(char* text, int* scores, int num_sentences);",
+                "sults, int num_lines, int num_keywords, int max_line_length);",
+                "d_map<std::string, std::vector<std::string>>& tags);"
+            ],
+            "sum": [
+                "marize_text(const std::string& file_path);"
+            ],
+            "sys": [
+                "tem>"
+            ],
+            "type": [
+                ">"
+            ],
+            "void": [
+                "calculate_sentence_scores(char* text, int* scores, int num_sentences);",
+                "tag_text_lines(char* lines, char* keywords, int* results, int num_lines, int num_keywords, int max_line_length);",
+                "tag_python_lines(char* data, int size);",
+                "process_python_files(std::vector<std::string>& files);"
+            ]
+        }
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\.MAIN FOLDER\\My Businesses\\Mad Anlger Works\\Programming\\Tools\\Ai_Comms_Assistant_v1\\Ai_Comms_Assistant\\AI\\targetFile\\Python\\block_mcaffee_popup.py": {
+        "path": "C:\\Users\\joshu\\OneDrive\\Documents\\.MAIN FOLDER\\My Businesses\\Mad Anlger Works\\Programming\\Tools\\Ai_Comms_Assistant_v1\\Ai_Comms_Assistant\\AI\\targetFile\\Python\\block_mcaffee_popup.py",
+        "tags": {
+            "None": [
+                ")"
+            ],
+            "all": [
+                "back function to check window titles and close windows containing 'McAfee'.\"\"\"",
+                "top-level windows and call our function for each"
+            ],
+            "and": [
+                "close windows containing 'McAfee'.\"\"\"",
+                "call our function for each"
+            ],
+            "as": [
+                "e:"
+            ],
+            "def": [
+                "close_mcafee_popup(hwnd, _):",
+                "main():"
+            ],
+            "do": [
+                "w titles and close windows containing 'McAfee'.\"\"\"",
+                "w is visible",
+                "wVisible(hwnd):",
+                "w title",
+                "wText(hwnd)",
+                "w: {title}\")",
+                "w",
+                "w: {e}\")",
+                "ws and call our function for each",
+                "ws(close_mcafee_popup, None)"
+            ],
+            "except": [
+                "Exception as e:"
+            ],
+            "for": [
+                "each",
+                "a short period before scanning again"
+            ],
+            "function": [
+                "to check window titles and close windows containing 'McAfee'.\"\"\"",
+                "for each"
+            ],
+            "if": [
+                "the window is visible",
+                "win32gui.IsWindowVisible(hwnd):",
+                "\"McAfee\" in title:",
+                "__name__ == '__main__':"
+            ],
+            "import": [
+                "time",
+                "win32gui",
+                "win32con"
+            ],
+            "in": [
+                "32gui",
+                "32con",
+                "dow titles and close windows containing 'McAfee'.\"\"\"",
+                "dow is visible",
+                "32gui.IsWindowVisible(hwnd):",
+                "dow title",
+                "32gui.GetWindowText(hwnd)",
+                "title:",
+                "t(f\"Found window: {title}\")",
+                "dow",
+                "32gui.PostMessage(hwnd, win32con.WM_CLOSE, 0, 0)",
+                "t(\"Popup closed.\")",
+                "t(f\"Error closing window: {e}\")",
+                "():",
+                "t(\"Starting McAfee popup blocker...\")",
+                "dows and call our function for each",
+                "32gui.EnumWindows(close_mcafee_popup, None)",
+                "g again",
+                "__':",
+                "()"
+            ],
+            "int": [
+                "(f\"Found window: {title}\")",
+                "(\"Popup closed.\")",
+                "(f\"Error closing window: {e}\")",
+                "(\"Starting McAfee popup blocker...\")"
+            ],
+            "is": [
+                "visible",
+                "ible(hwnd):"
+            ],
+            "or": [
+                "t time",
+                "t win32gui",
+                "t win32con",
+                "closing window: {e}\")",
+                "each",
+                "a short period before scanning again"
+            ],
+            "os": [
+                "e_mcafee_popup(hwnd, _):",
+                "e windows containing 'McAfee'.\"\"\"",
+                "e the window",
+                "tMessage(hwnd, win32con.WM_CLOSE, 0, 0)",
+                "ed.\")",
+                "ing window: {e}\")",
+                "e_mcafee_popup, None)"
+            ],
+            "print": [
+                "(f\"Found window: {title}\")",
+                "(\"Popup closed.\")",
+                "(f\"Error closing window: {e}\")",
+                "(\"Starting McAfee popup blocker...\")"
+            ],
+            "re": [
+                "scanning again"
+            ],
+            "short": [
+                "period before scanning again"
+            ],
+            "while": [
+                "True:"
+            ]
+        }
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\.MAIN FOLDER\\My Businesses\\Mad Anlger Works\\Programming\\Tools\\Ai_Comms_Assistant_v1\\Ai_Comms_Assistant\\AI\\targetFile\\Python\\list_directory_dir.py": {
+        "path": "C:\\Users\\joshu\\OneDrive\\Documents\\.MAIN FOLDER\\My Businesses\\Mad Anlger Works\\Programming\\Tools\\Ai_Comms_Assistant_v1\\Ai_Comms_Assistant\\AI\\targetFile\\Python\\list_directory_dir.py",
+        "tags": {
+            "abs": [
+                "olute path)"
+            ],
+            "all": [
+                "directories",
+                "directories: {total_size} bytes ({total_size / (1024 * 1024):.2f} MB)\")"
+            ],
+            "and": [
+                "system path included"
+            ],
+            "as": [
+                "ename(root)}/ - {dir_size} bytes ({dir_size / (1024 * 1024):.2f} MB)\")",
+                "file:",
+                "been saved to: {output_file}\")"
+            ],
+            "byte": [
+                "s ({dir_size / (1024 * 1024):.2f} MB)\")",
+                "s ({total_size / (1024 * 1024):.2f} MB)\")"
+            ],
+            "def": [
+                "list_directories_with_sizes(path=\".\"):"
+            ],
+            "dir": [
+                "ectories_with_sizes(path=\".\"):",
+                "ectories",
+                "s, files in os.walk(path):",
+                "_size = sum(os.path.getsize(os.path.join(root, f)) for f in files)  # Calculate size of current directory",
+                "_size",
+                "_size} bytes ({dir_size / (1024 * 1024):.2f} MB)\")",
+                "ectories: {total_size} bytes ({total_size / (1024 * 1024):.2f} MB)\")",
+                "ectory = os.getcwd()  # Gets the current working directory (absolute path)",
+                "name(__file__), \"directory_structure_dir.txt\")  # New filename",
+                "ectories in: {directory}\\n\")",
+                "ectories_with_sizes(directory)",
+                "ectory}\\n\\n\")",
+                "ectory: {directory}\")"
+            ],
+            "for": [
+                "all directories",
+                "root, dirs, files in os.walk(path):",
+                "f in files)  # Calculate size of current directory"
+            ],
+            "if": [
+                "__name__ == \"__main__\":"
+            ],
+            "import": [
+                "os"
+            ],
+            "in": [
+                "os.walk(path):",
+                "(root, f)) for f in files)  # Calculate size of current directory",
+                "dent = \" \" * 4 * level",
+                "dent}{os.path.basename(root)}/ - {dir_size} bytes ({dir_size / (1024 * 1024):.2f} MB)\")",
+                "(output)",
+                "__\":",
+                "g directory (absolute path)",
+                "(os.path.dirname(__file__), \"directory_structure_dir.txt\")  # New filename",
+                "t(f\"Listing directories in: {directory}\\n\")",
+                "t to console",
+                "t(structure)",
+                "cluded",
+                "directory: {directory}\")",
+                "t(f\"\\nDirectory structure has been saved to: {output_file}\")"
+            ],
+            "int": [
+                "(f\"Listing directories in: {directory}\\n\")",
+                "to console",
+                "(structure)",
+                "(f\"\\nDirectory structure has been saved to: {output_file}\")"
+            ],
+            "is": [
+                "t_directories_with_sizes(path=\".\"):",
+                "ting directories in: {directory}\\n\")",
+                "t_directories_with_sizes(directory)"
+            ],
+            "len": [
+                "ame",
+                "ame and system path included"
+            ],
+            "new": [
+                "filename and system path included"
+            ],
+            "open": [
+                "(output_file, \"w\") as file:"
+            ],
+            "or": [
+                "t os",
+                "ies_with_sizes(path=\".\"):",
+                "all directories",
+                "root, dirs, files in os.walk(path):",
+                "f in files)  # Calculate size of current directory",
+                "ies: {total_size} bytes ({total_size / (1024 * 1024):.2f} MB)\")",
+                "y = os.getcwd()  # Gets the current working directory (absolute path)",
+                "y_structure_dir.txt\")  # New filename",
+                "ies in: {directory}\\n\")",
+                "ies_with_sizes(directory)",
+                "y structure of: {directory}\\n\\n\")",
+                "y: {directory}\")",
+                "y structure has been saved to: {output_file}\")"
+            ],
+            "os": [
+                ".walk(path):",
+                ".path.getsize(os.path.join(root, f)) for f in files)  # Calculate size of current directory",
+                ".sep)",
+                ".path.basename(root)}/ - {dir_size} bytes ({dir_size / (1024 * 1024):.2f} MB)\")",
+                ".getcwd()  # Gets the current working directory (absolute path)",
+                ".path.join(os.path.dirname(__file__), \"directory_structure_dir.txt\")  # New filename"
+            ],
+            "print": [
+                "(f\"Listing directories in: {directory}\\n\")",
+                "(structure)",
+                "(f\"\\nDirectory structure has been saved to: {output_file}\")"
+            ],
+            "re": [
+                "ctories_with_sizes(path=\".\"):",
+                "ctories",
+                "nt directory",
+                "place(path, \"\").count(os.sep)",
+                "ctories: {total_size} bytes ({total_size / (1024 * 1024):.2f} MB)\")",
+                "turn \"\\n\".join(output)",
+                "ctory = os.getcwd()  # Gets the current working directory (absolute path)",
+                "ctory_structure_dir.txt\")  # New filename",
+                "ctories in: {directory}\\n\")",
+                "= list_directories_with_sizes(directory)",
+                ")",
+                "ctory structure of: {directory}\\n\\n\")",
+                ")",
+                "ctory: {directory}\")",
+                "ctory structure has been saved to: {output_file}\")"
+            ],
+            "return": [
+                "\"\\n\".join(output)"
+            ],
+            "struct": [
+                "ure_dir.txt\")  # New filename",
+                "ure = list_directories_with_sizes(directory)",
+                "ure)",
+                "ure of: {directory}\\n\\n\")",
+                "ure)",
+                "ure has been saved to: {output_file}\")"
+            ],
+            "sum": [
+                "(os.path.getsize(os.path.join(root, f)) for f in files)  # Calculate size of current directory"
+            ],
+            "sys": [
+                "tem path included"
+            ],
+            "with": [
+                "_sizes(path=\".\"):",
+                "_sizes(directory)",
+                "the new filename and system path included",
+                "open(output_file, \"w\") as file:"
+            ]
+        }
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\.MAIN FOLDER\\My Businesses\\Mad Anlger Works\\Programming\\Tools\\Ai_Comms_Assistant_v1\\Ai_Comms_Assistant\\AI\\targetFile\\Python\\list_directory_full.py": {
+        "path": "C:\\Users\\joshu\\OneDrive\\Documents\\.MAIN FOLDER\\My Businesses\\Mad Anlger Works\\Programming\\Tools\\Ai_Comms_Assistant_v1\\Ai_Comms_Assistant\\AI\\targetFile\\Python\\list_directory_full.py",
+        "tags": {
+            "abs": [
+                "olute path)"
+            ],
+            "and": [
+                "bottom"
+            ],
+            "as": [
+                "ename(root)}/\")",
+                "file:",
+                "been saved to: {output_file}\")"
+            ],
+            "byte": [
+                "s\")",
+                "s ({total_size / (1024 * 1024):.2f} MB)\")"
+            ],
+            "def": [
+                "list_directory_contents(path=\".\"):"
+            ],
+            "dir": [
+                "ectory_contents(path=\".\"):",
+                "s, files in os.walk(path):",
+                "ectory: {total_size} bytes ({total_size / (1024 * 1024):.2f} MB)\")",
+                "ectory = os.getcwd()  # Gets the current working directory (absolute path)",
+                "name(__file__), \"directory_structure_full.txt\")",
+                "ectory: {directory}\\n\")",
+                "ectory_contents(directory)",
+                "ectory path at the top and bottom",
+                "ectory}\\n\\n\")",
+                "ectory: {directory}\")"
+            ],
+            "for": [
+                "root, dirs, files in os.walk(path):",
+                "file in files:"
+            ],
+            "if": [
+                "__name__ == \"__main__\":"
+            ],
+            "import": [
+                "os"
+            ],
+            "in": [
+                "os.walk(path):",
+                "dent = \" \" * 4 * level",
+                "dent}{os.path.basename(root)}/\")",
+                "dent = \" \" * 4 * (level + 1)",
+                "files:",
+                "(root, file)",
+                "dent}{file} - {file_size} bytes\")",
+                "(output)",
+                "__\":",
+                "g directory (absolute path)",
+                "(os.path.dirname(__file__), \"directory_structure_full.txt\")",
+                "t(f\"Listing contents of directory: {directory}\\n\")",
+                "t to console",
+                "t(structure)",
+                "g=\"utf-8\") as file:",
+                "directory: {directory}\")",
+                "t(f\"\\nDirectory structure has been saved to: {output_file}\")"
+            ],
+            "int": [
+                "(f\"Listing contents of directory: {directory}\\n\")",
+                "to console",
+                "(structure)",
+                "(f\"\\nDirectory structure has been saved to: {output_file}\")"
+            ],
+            "is": [
+                "t_directory_contents(path=\".\"):",
+                "ting contents of directory: {directory}\\n\")",
+                "t_directory_contents(directory)"
+            ],
+            "open": [
+                "(output_file, \"w\", encoding=\"utf-8\") as file:"
+            ],
+            "or": [
+                "t os",
+                "y_contents(path=\".\"):",
+                "root, dirs, files in os.walk(path):",
+                "file in files:",
+                "y: {total_size} bytes ({total_size / (1024 * 1024):.2f} MB)\")",
+                "y = os.getcwd()  # Gets the current working directory (absolute path)",
+                "y_structure_full.txt\")",
+                "y: {directory}\\n\")",
+                "y_contents(directory)",
+                "y path at the top and bottom",
+                "y structure of: {directory}\\n\\n\")",
+                "y: {directory}\")",
+                "y structure has been saved to: {output_file}\")"
+            ],
+            "os": [
+                ".walk(path):",
+                ".sep)",
+                ".path.basename(root)}/\")",
+                ".path.join(root, file)",
+                ".path.getsize(file_path)",
+                ".getcwd()  # Gets the current working directory (absolute path)",
+                ".path.join(os.path.dirname(__file__), \"directory_structure_full.txt\")"
+            ],
+            "print": [
+                "(f\"Listing contents of directory: {directory}\\n\")",
+                "(structure)",
+                "(f\"\\nDirectory structure has been saved to: {output_file}\")"
+            ],
+            "re": [
+                "ctory_contents(path=\".\"):",
+                "place(path, \"\").count(os.sep)",
+                "ctory: {total_size} bytes ({total_size / (1024 * 1024):.2f} MB)\")",
+                "turn \"\\n\".join(output)",
+                "ctory = os.getcwd()  # Gets the current working directory (absolute path)",
+                "ctory_structure_full.txt\")",
+                "ctory: {directory}\\n\")",
+                "= list_directory_contents(directory)",
+                ")",
+                "ctory path at the top and bottom",
+                "ctory structure of: {directory}\\n\\n\")",
+                ")",
+                "ctory: {directory}\")",
+                "ctory structure has been saved to: {output_file}\")"
+            ],
+            "return": [
+                "\"\\n\".join(output)"
+            ],
+            "struct": [
+                "ure_full.txt\")",
+                "ure = list_directory_contents(directory)",
+                "ure)",
+                "ure of: {directory}\\n\\n\")",
+                "ure)",
+                "ure has been saved to: {output_file}\")"
+            ],
+            "with": [
+                "the directory path at the top and bottom",
+                "open(output_file, \"w\", encoding=\"utf-8\") as file:"
+            ]
+        }
+    },
+    "C:\\Users\\joshu\\OneDrive\\Documents\\.MAIN FOLDER\\My Businesses\\Mad Anlger Works\\Programming\\Tools\\Ai_Comms_Assistant_v1\\Ai_Comms_Assistant\\AI\\targetFile\\Python\\test.py": {
+        "path": "C:\\Users\\joshu\\OneDrive\\Documents\\.MAIN FOLDER\\My Businesses\\Mad Anlger Works\\Programming\\Tools\\Ai_Comms_Assistant_v1\\Ai_Comms_Assistant\\AI\\targetFile\\Python\\test.py",
+        "tags": {
+            "BUG": [
+                "There's an issue with input validation",
+                "Crashes when input is empty",
+                "Invalid type included"
+            ],
+            "FIXME": [
+                "Fix the bug in data processing"
+            ],
+            "NOTE": [
+                "Used for file operations",
+                "Handles JSON serialization"
+            ],
+            "TODO": [
+                "Implement the main function",
+                "Optimize the loop performance"
+            ],
+            "and": [
+                "les JSON serialization"
+            ],
+            "as": [
+                "hes when input is empty",
+                "e:"
+            ],
+            "def": [
+                "process_data(data):",
+                "main():"
+            ],
+            "except": [
+                "ValueError as e:"
+            ],
+            "for": [
+                "file operations",
+                "mance",
+                "item in data:"
+            ],
+            "function": [
+                ".\"\"\""
+            ],
+            "id": [
+                "ation",
+                "input type\")",
+                "type included"
+            ],
+            "if": [
+                "not isinstance(item, int):  # BUG: Crashes when input is empty",
+                "__name__ == \"__main__\":"
+            ],
+            "import": [
+                "os  # NOTE: Used for file operations",
+                "json  # NOTE: Handles JSON serialization"
+            ],
+            "in": [
+                "function",
+                "data processing",
+                "put validation",
+                "put data.\"\"\"",
+                "data:",
+                "stance(item, int):  # BUG: Crashes when input is empty",
+                "put type\")",
+                "t(f\"Error: {e}\")",
+                "():",
+                "execution function.\"\"\"",
+                "cluded",
+                "t(f\"Processed Result: {result}\")",
+                "__\":",
+                "()"
+            ],
+            "input": [
+                "validation",
+                "data.\"\"\"",
+                "is empty",
+                "type\")"
+            ],
+            "int": [
+                "):  # BUG: Crashes when input is empty",
+                "(f\"Error: {e}\")",
+                "(f\"Processed Result: {result}\")"
+            ],
+            "is": [
+                "sue with input validation",
+                "instance(item, int):  # BUG: Crashes when input is empty",
+                "e ValueError(\"Invalid input type\")"
+            ],
+            "isinstance": [
+                "(item, int):  # BUG: Crashes when input is empty"
+            ],
+            "json": [
+                "# NOTE: Handles JSON serialization"
+            ],
+            "not": [
+                "isinstance(item, int):  # BUG: Crashes when input is empty"
+            ],
+            "or": [
+                "t os  # NOTE: Used for file operations",
+                "t json  # NOTE: Handles JSON serialization",
+                "mance",
+                "item in data:",
+                "(\"Invalid input type\")",
+                "as e:",
+                "{e}\")"
+            ],
+            "os": [
+                "# NOTE: Used for file operations"
+            ],
+            "print": [
+                "(f\"Error: {e}\")",
+                "(f\"Processed Result: {result}\")"
+            ],
+            "raise": [
+                "ValueError(\"Invalid input type\")"
+            ],
+            "re": [
+                "'s an issue with input validation",
+                "turn sum(data)",
+                "sult = process_data(sample_data)",
+                "sult}\")"
+            ],
+            "return": [
+                "sum(data)"
+            ],
+            "sum": [
+                "(data)"
+            ],
+            "type": [
+                "\")",
+                "included"
+            ],
+            "with": [
+                "input validation"
+            ]
+        }
+    }
+}
