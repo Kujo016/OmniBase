@@ -1,9 +1,0 @@
-Directory structure of: C:\Users\joshu\OneDrive\Documents\.MAIN FOLDER\My Businesses\Mad Anlger Works\Programming\Tools\Ai_Comms_Assistant_v1\Ai_Comms_Assistant\PythonFiles\..\PythonFiles
-
-PythonFiles/
-    list_directory_dir.py - 1449 bytes
-    list_directory_full.py - 1570 bytes
-
-Total size of directory: 3019 bytes (0.00 MB)
-
-System path of main directory: C:\Users\joshu\OneDrive\Documents\.MAIN FOLDER\My Businesses\Mad Anlger Works\Programming\Tools\Ai_Comms_Assistant_v1\Ai_Comms_Assistant\PythonFiles\..\PythonFiles

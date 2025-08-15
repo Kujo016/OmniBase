@@ -1,9 +1,0 @@
-Directory structure of: C:\Users\joshu\OneDrive\Documents\.MAIN FOLDER\My Businesses\Mad Anlger Works\Programming\Tools\Ai_Comms_Assistant_v1\Ai_Comms_Assistant\PythonFiles\..\Reports
-
-Reports/
-    directory_structure_full.txt - 483 bytes
-    summary_results.json - 116280 bytes
-
-Total size of directory: 116763 bytes (0.11 MB)
-
-System path of main directory: C:\Users\joshu\OneDrive\Documents\.MAIN FOLDER\My Businesses\Mad Anlger Works\Programming\Tools\Ai_Comms_Assistant_v1\Ai_Comms_Assistant\PythonFiles\..\Reports
